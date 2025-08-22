@@ -274,7 +274,7 @@ export const products: Product[] = [
     name: 'Parle Marie',
     price: 35,
     originalPrice: 45,
-    image: '"C:\Users\SAKSHAM SHELAR\Downloads\parle marie.jpg"',
+    image:'https://m.media-amazon.com/images/I/81sxxaCw35L.jpg auto=compress&cs=tinysrgb&w=400',
     category: 'Snacks',
     description: 'Delicious cream biscuits',
     inStock: true,
