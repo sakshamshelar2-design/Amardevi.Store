@@ -92,7 +92,7 @@ export const products: Product[] = [
     id: 9,
     name: 'Surf Excel Detergent',
     price: 155,
-    image: 'https://rukminim2.flixcart.com/image/704/844/xif0q/washing-powder/z/8/v/-original-imahb7wxg5h84yhg.jpeg?q=90&crop=false?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/619HRPW3elL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Detergent',
     description: 'Surf Excel washing powder - 1kg',
     inStock: true,
