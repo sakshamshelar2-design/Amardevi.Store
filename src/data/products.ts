@@ -4,7 +4,7 @@ export const products: Product[] = [
   // Wheat
   {
     id: 1,
-    name: 'Premium Wheat Flour',
+    name: 'Gold wheat',
     price: 45,
     originalPrice: 55,
     image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -16,7 +16,7 @@ export const products: Product[] = [
   },
   {
     id: 2,
-    name: 'Whole Wheat Flour',
+    name: 'Rajwadi wheat',
     price: 52,
     image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Wheat',
@@ -271,10 +271,10 @@ export const products: Product[] = [
   },
   {
     id: 27,
-    name: 'Biscuits',
+    name: 'Parle Marie',
     price: 35,
     originalPrice: 45,
-    image: 'https://images.pexels.com/photos/890577/pexels-photo-890577.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: '"C:\Users\SAKSHAM SHELAR\Downloads\parle marie.jpg"',
     category: 'Snacks',
     description: 'Delicious cream biscuits',
     inStock: true,
