@@ -11,7 +11,7 @@ const HomePage = () => {
   const saleProducts = products.filter(product => product.onSale).slice(0, 4);
 
   const categories = [
-    { name: 'Cleaning', icon: '🧼', count: products.filter(p => p.category === 'Cleaning').length },
+    { name: 'Cleaning', icon: '🧴', count: products.filter(p => p.category === 'Cleaning').length },
     { name: 'Grains', icon: '🌾', count: products.filter(p => p.category === 'Grains').length },
     { name: 'Rice', icon: '🍚', count: products.filter(p => p.category === 'Rice').length },
     { name: 'Dal', icon: '🍲', count: products.filter(p => p.category === 'Dal').length },
