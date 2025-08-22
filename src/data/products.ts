@@ -1,95 +1,216 @@
 import { Product } from '../types';
 
 export const products: Product[] = [
-  // Vegetables
+  // Wheat
   {
     id: 1,
-    name: 'Fresh Tomatoes',
+    name: 'Premium Wheat Flour',
     price: 45,
     originalPrice: 55,
-    image: 'https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Vegetables',
-    description: 'Fresh, juicy tomatoes perfect for cooking and salads',
+    image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Wheat',
+    description: 'Premium quality wheat flour for all your baking needs',
     inStock: true,
     featured: true,
     onSale: true
   },
   {
     id: 2,
-    name: 'Organic Onions',
-    price: 35,
-    image: 'https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Vegetables',
-    description: 'Premium quality organic onions',
+    name: 'Whole Wheat Flour',
+    price: 52,
+    image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Wheat',
+    description: 'Nutritious whole wheat flour rich in fiber',
     inStock: true,
     featured: true
   },
   {
     id: 3,
-    name: 'Fresh Potatoes',
-    price: 25,
-    image: 'https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Vegetables',
-    description: 'High-quality potatoes for all your cooking needs',
+    name: 'Organic Wheat Flour',
+    price: 68,
+    image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Wheat',
+    description: 'Certified organic wheat flour - 1kg',
     inStock: true
   },
   {
     id: 4,
-    name: 'Green Capsicum',
-    price: 65,
-    originalPrice: 75,
-    image: 'https://images.pexels.com/photos/1268101/pexels-photo-1268101.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Vegetables',
-    description: 'Fresh green bell peppers',
+    name: 'Multi-Grain Flour',
+    price: 75,
+    originalPrice: 85,
+    image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Wheat',
+    description: 'Healthy multi-grain flour blend',
     inStock: true,
     onSale: true
   },
   
-  // Fruits
+  // Rice
   {
     id: 5,
-    name: 'Fresh Apples',
+    name: 'Basmati Rice Premium',
     price: 180,
-    image: 'https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits',
-    description: 'Crisp and sweet red apples',
+    image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Rice',
+    description: 'Premium quality Basmati rice - 1kg',
     inStock: true,
     featured: true
   },
   {
     id: 6,
-    name: 'Bananas',
-    price: 60,
-    image: 'https://images.pexels.com/photos/61127/pexels-photo-61127.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits',
-    description: 'Fresh ripe bananas',
+    name: 'Jasmine Rice',
+    price: 160,
+    image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Rice',
+    description: 'Fragrant Jasmine rice - 1kg',
     inStock: true
   },
   {
     id: 7,
-    name: 'Orange',
+    name: 'Brown Rice',
     price: 120,
     originalPrice: 140,
-    image: 'https://images.pexels.com/photos/161559/background-bitter-breakfast-bright-161559.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits',
-    description: 'Juicy oranges rich in Vitamin C',
+    image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Rice',
+    description: 'Healthy brown rice rich in nutrients - 1kg',
     inStock: true,
     onSale: true
   },
   {
     id: 8,
-    name: 'Grapes',
+    name: 'Sona Masoori Rice',
     price: 95,
-    image: 'https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits',
-    description: 'Sweet and fresh grapes',
+    image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Rice',
+    description: 'Premium Sona Masoori rice - 1kg',
     inStock: true,
     featured: true
   },
   
-  // Dairy
+  // Detergent
   {
     id: 9,
+    name: 'Surf Excel Detergent',
+    price: 155,
+    image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Detergent',
+    description: 'Surf Excel washing powder - 1kg',
+    inStock: true,
+    featured: true
+  },
+  {
+    id: 10,
+    name: 'Ariel Liquid Detergent',
+    price: 280,
+    image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Detergent',
+    description: 'Ariel liquid detergent - 1 liter',
+    inStock: true
+  },
+  {
+    id: 11,
+    name: 'Tide Detergent Powder',
+    price: 185,
+    originalPrice: 205,
+    image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Detergent',
+    description: 'Tide washing powder - 1kg',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 12,
+    name: 'Rin Detergent Bar',
+    price: 45,
+    image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Detergent',
+    description: 'Rin detergent bar - 250g',
+    inStock: true
+  },
+  
+  // Pulses
+  {
+    id: 13,
+    name: 'Toor Dal (Arhar)',
+    price: 120,
+    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Pulses',
+    description: 'Premium quality Toor Dal - 1kg',
+    inStock: true,
+    featured: true
+  },
+  {
+    id: 14,
+    name: 'Moong Dal',
+    price: 135,
+    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Pulses',
+    description: 'Fresh Moong Dal - 1kg',
+    inStock: true
+  },
+  {
+    id: 15,
+    name: 'Chana Dal',
+    price: 95,
+    originalPrice: 110,
+    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Pulses',
+    description: 'Quality Chana Dal - 1kg',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 16,
+    name: 'Masoor Dal',
+    price: 85,
+    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Pulses',
+    description: 'Red lentils (Masoor Dal) - 1kg',
+    inStock: true
+  },
+  {
+    id: 17,
+    name: 'Urad Dal',
+    price: 145,
+    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Pulses',
+    description: 'Black gram (Urad Dal) - 1kg',
+    inStock: true,
+    featured: true
+  },
+  {
+    id: 18,
+    name: 'Rajma (Kidney Beans)',
+    price: 165,
+    originalPrice: 185,
+    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Pulses',
+    description: 'Premium Rajma (Kidney Beans) - 1kg',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 19,
+    name: 'Kabuli Chana',
+    price: 125,
+    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Pulses',
+    description: 'White chickpeas (Kabuli Chana) - 1kg',
+    inStock: true
+  },
+  {
+    id: 20,
+    name: 'Black Chana',
+    price: 95,
+    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Pulses',
+    description: 'Black chickpeas (Kala Chana) - 1kg',
+    inStock: true
+  },
+  
+  // Dairy (keeping existing)
+  {
+    id: 21,
     name: 'Fresh Milk',
     price: 55,
     image: 'https://images.pexels.com/photos/416830/pexels-photo-416830.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -99,7 +220,7 @@ export const products: Product[] = [
     featured: true
   },
   {
-    id: 10,
+    id: 22,
     name: 'Paneer',
     price: 280,
     image: 'https://images.pexels.com/photos/6824540/pexels-photo-6824540.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -108,7 +229,7 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 11,
+    id: 23,
     name: 'Butter',
     price: 85,
     originalPrice: 95,
@@ -119,7 +240,7 @@ export const products: Product[] = [
     onSale: true
   },
   {
-    id: 12,
+    id: 24,
     name: 'Yogurt',
     price: 45,
     image: 'https://images.pexels.com/photos/4109943/pexels-photo-4109943.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -128,9 +249,9 @@ export const products: Product[] = [
     inStock: true
   },
   
-  // Snacks
+  // Snacks (keeping existing)
   {
-    id: 13,
+    id: 25,
     name: 'Mixed Nuts',
     price: 320,
     image: 'https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -140,7 +261,7 @@ export const products: Product[] = [
     featured: true
   },
   {
-    id: 14,
+    id: 26,
     name: 'Potato Chips',
     price: 25,
     image: 'https://images.pexels.com/photos/4274468/pexels-photo-4274468.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -149,7 +270,7 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 15,
+    id: 27,
     name: 'Biscuits',
     price: 35,
     originalPrice: 45,
@@ -160,9 +281,9 @@ export const products: Product[] = [
     onSale: true
   },
   
-  // Beverages
+  // Beverages (keeping existing)
   {
-    id: 16,
+    id: 28,
     name: 'Green Tea',
     price: 125,
     image: 'https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -171,7 +292,7 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 17,
+    id: 29,
     name: 'Coffee Beans',
     price: 450,
     image: 'https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -181,7 +302,7 @@ export const products: Product[] = [
     featured: true
   },
   {
-    id: 18,
+    id: 30,
     name: 'Fresh Juice',
     price: 75,
     originalPrice: 85,
@@ -192,18 +313,9 @@ export const products: Product[] = [
     onSale: true
   },
   
-  // Household
+  // Household (keeping existing)
   {
-    id: 19,
-    name: 'Basmati Rice',
-    price: 180,
-    image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Household',
-    description: 'Premium Basmati rice - 1kg',
-    inStock: true
-  },
-  {
-    id: 20,
+    id: 31,
     name: 'Cooking Oil',
     price: 145,
     originalPrice: 165,
@@ -217,8 +329,10 @@ export const products: Product[] = [
 
 export const categories = [
   'All',
-  'Vegetables',
-  'Fruits',
+  'Wheat',
+  'Rice',
+  'Detergent',
+  'Pulses',
   'Dairy',
   'Snacks',
   'Beverages',

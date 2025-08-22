@@ -11,10 +11,10 @@ const HomePage = () => {
   const saleProducts = products.filter(product => product.onSale).slice(0, 4);
 
   const categories = [
-    { name: 'Cleaning', icon: '🧴', count: products.filter(p => p.category === 'Cleaning').length },
-    { name: 'Grains', icon: '🌾', count: products.filter(p => p.category === 'Grains').length },
+    { name: 'Wheat', icon: '🌾', count: products.filter(p => p.category === 'Wheat').length },
     { name: 'Rice', icon: '🍚', count: products.filter(p => p.category === 'Rice').length },
-    { name: 'Dal', icon: '🍲', count: products.filter(p => p.category === 'Dal').length },
+    { name: 'Detergent', icon: '🧴', count: products.filter(p => p.category === 'Detergent').length },
+    { name: 'Pulses', icon: '🍲', count: products.filter(p => p.category === 'Pulses').length },
     { name: 'Beverages', icon: '☕', count: products.filter(p => p.category === 'Beverages').length },
     { name: 'Household', icon: '🏠', count: products.filter(p => p.category === 'Household').length },
     { name: 'Dairy', icon: '🥛', count: products.filter(p => p.category === 'Dairy').length },
