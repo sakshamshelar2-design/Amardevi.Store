@@ -221,6 +221,15 @@ export const products: Product[] = [
   },
   {
     id: 22,
+    name: 'Gokul milk',
+    price: 37,
+    image: 'https://images.pexels.com/photos/6824540/pexels-photo-6824540.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Dairy',
+    description: 'Fresh cottage cheese - 250g',
+    inStock: true
+  },
+  {
+    id: 23,
     name: 'Paneer',
     price: 280,
     image: 'https://images.pexels.com/photos/6824540/pexels-photo-6824540.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -229,7 +238,7 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 23,
+    id: 24,
     name: 'Butter',
     price: 85,
     originalPrice: 95,
@@ -240,7 +249,7 @@ export const products: Product[] = [
     onSale: true
   },
   {
-    id: 24,
+    id: 25,
     name: 'Yogurt',
     price: 45,
     image: 'https://images.pexels.com/photos/4109943/pexels-photo-4109943.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -251,7 +260,7 @@ export const products: Product[] = [
   
   // Snacks (keeping existing)
   {
-    id: 25,
+    id: 26,
     name: 'Mixed Nuts',
     price: 320,
     image: 'https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -261,7 +270,7 @@ export const products: Product[] = [
     featured: true
   },
   {
-    id: 26,
+    id: 27,
     name: 'Potato Chips',
     price: 25,
     image: 'https://images.pexels.com/photos/4274468/pexels-photo-4274468.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -270,7 +279,7 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 27,
+    id: 28,
     name: 'Parle Marie',
     price: 35,
     originalPrice: 45,
@@ -283,7 +292,7 @@ export const products: Product[] = [
   
   // Beverages (keeping existing)
   {
-    id: 28,
+    id: 29,
     name: 'Green Tea',
     price: 125,
     image: 'https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -292,7 +301,7 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 29,
+    id: 30,
     name: 'Coffee Beans',
     price: 450,
     image: 'https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -302,7 +311,7 @@ export const products: Product[] = [
     featured: true
   },
   {
-    id: 30,
+    id: 31,
     name: 'Fresh Juice',
     price: 75,
     originalPrice: 85,
@@ -315,7 +324,7 @@ export const products: Product[] = [
   
   // Household (keeping existing)
   {
-    id: 31,
+    id: 32,
     name: 'Cooking Oil',
     price: 145,
     originalPrice: 165,
