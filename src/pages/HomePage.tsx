@@ -31,8 +31,6 @@ const HomePage = () => {
      { name: 'Readymade', icon: '🍜', count: products.filter(p => p.category === 'Readymade').length },
      { name: 'Household', icon: '🧹', count: products.filter(p => p.category === 'Household').length },
     
-    
-
   ];
 
   return (
