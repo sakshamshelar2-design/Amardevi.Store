@@ -335,7 +335,7 @@ export const products: Product[] = [
     onSale: true
   },
 
-    // Biscuits (keeping existing)
+  // Biscuits (keeping existing)
   {
     id: 33,
     name: 'Parle Marie',
