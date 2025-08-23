@@ -381,7 +381,7 @@ export const products: Product[] = [
     onSale: true
   },   
   {
-    id: 33,
+    id: 37,
     name: 'Oreo chocolate',
     price: 145,
     originalPrice: 165,
@@ -392,7 +392,7 @@ export const products: Product[] = [
     onSale: true
   },   
   {
-    id: 33,
+    id: 38,
     name: 'Oreo cream',
     price: 145,
     originalPrice: 165,
@@ -403,7 +403,7 @@ export const products: Product[] = [
     onSale: true
   },   
   {
-    id: 33,
+    id: 39,
     name: 'Borboun',
     price: 145,
     originalPrice: 165,
@@ -414,7 +414,7 @@ export const products: Product[] = [
     onSale: true
   },   
   {
-    id: 33,
+    id: 40,
     name: 'Hide&Seek',
     price: 145,
     originalPrice: 165,
@@ -425,7 +425,7 @@ export const products: Product[] = [
     onSale: true
   },   
   {
-    id: 33,
+    id: 41,
     name: 'Parle 50-50',
     price: 145,
     originalPrice: 165,
@@ -436,7 +436,7 @@ export const products: Product[] = [
     onSale: true
   },   
   {
-    id: 33,
+    id: 42,
     name: 'Parle krackjack',
     price: 145,
     originalPrice: 165,
@@ -447,7 +447,7 @@ export const products: Product[] = [
     onSale: true
   },   
   {
-    id: 33,
+    id: 43,
     name: 'Parle Monaco',
     price: 145,
     originalPrice: 165,
@@ -458,7 +458,7 @@ export const products: Product[] = [
     onSale: true
   },   
    {
-    id: 33,
+    id: 44,
     name: 'Parle 20-20',
     price: 145,
     originalPrice: 165,
@@ -469,7 +469,7 @@ export const products: Product[] = [
     onSale: true
   },   
    {
-    id: 33,
+    id: 45,
     name: 'Dark Fantasy',
     price: 145,
     originalPrice: 165,
@@ -480,7 +480,7 @@ export const products: Product[] = [
     onSale: true
   },   
   {
-    id: 33,
+    id: 46,
     name: 'nice Time',
     price: 145,
     originalPrice: 165,
