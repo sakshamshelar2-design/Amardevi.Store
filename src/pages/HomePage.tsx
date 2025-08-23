@@ -28,6 +28,7 @@ const HomePage = () => {
      { name: 'Cleaning', icon: '🍪', count: products.filter(p => p.category === 'Cleaning').length },
      { name: 'Snacks', icon: '🍪', count: products.filter(p => p.category === 'Snacks').length },
      { name: 'Readymade', icon: '🍪', count: products.filter(p => p.category === 'Readymade').length },
+     { name: 'Household', icon: '🍪', count: products.filter(p => p.category === 'Household').length },
     
     
 
