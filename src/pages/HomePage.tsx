@@ -14,11 +14,23 @@ const HomePage = () => {
     { name: 'Wheat', icon: '🌾', count: products.filter(p => p.category === 'Wheat').length },
     { name: 'Rice', icon: '🍚', count: products.filter(p => p.category === 'Rice').length },
     { name: 'Detergent', icon: '🧴', count: products.filter(p => p.category === 'Detergent').length },
-    { name: 'Pulses', icon: '🍲', count: products.filter(p => p.category === 'Pulses').length },
+    { name: 'Dals', icon: '🍲', count: products.filter(p => p.category === 'Pulses').length },
     { name: 'Beverages', icon: '☕', count: products.filter(p => p.category === 'Beverages').length },
-    { name: 'Household', icon: '🏠', count: products.filter(p => p.category === 'Household').length },
+    { name: 'Cooking Oil', icon: '🏠', count: products.filter(p => p.category === 'Household').length },
     { name: 'Dairy', icon: '🥛', count: products.filter(p => p.category === 'Dairy').length },
-    { name: 'Snacks', icon: '🍪', count: products.filter(p => p.category === 'Snacks').length },
+    { name: 'Dry Fruits', icon: '', count: products.filter(p => p.category === 'Dry Fruits').length },
+    { name: 'Biscuits', icon: '🍪', count: products.filter(p => p.category === 'Biscuits').length },
+    { name: 'Masala', icon: '🍪', count: products.filter(p => p.category === 'Masala').length },
+     { name: 'Toothpaste', icon: '🍪', count: products.filter(p => p.category === 'Toothpaste' ).length },
+     { name: 'Soaps', icon: '🍪', count: products.filter(p => p.category === 'Soaps').length },
+     { name: 'Shampoo', icon: '🍪', count: products.filter(p => p.category === 'Shampoo').length },
+     { name: 'Coconut', icon: '🍪', count: products.filter(p => p.category === 'Coconut').length },
+     { name: 'Cleaning', icon: '🍪', count: products.filter(p => p.category === 'Cleaning').length },
+     { name: 'Snacks', icon: '🍪', count: products.filter(p => p.category === 'Snacks').length },
+     { name: 'Readymade', icon: '🍪', count: products.filter(p => p.category === 'Readymade').length },
+    
+    
+
   ];
 
   return (
