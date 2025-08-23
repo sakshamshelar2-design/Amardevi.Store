@@ -401,7 +401,11 @@ const CheckoutPage = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Delivery Fee</span>
-                  <span>{deliveryFee === 0 ? 'Free' : `₹${deliveryFee}`}</span>
+                  <span>{state.total >= 400 ? 'Free' : `₹${deliveryFee}`}</span>
+                </div>
+                <div className="flex justify-between text-sm text-gray-500">
+                  <span>Delivery Time</span>
+                  <span>5-10 hours</span>
                 </div>
                 <div className="flex justify-between text-lg font-bold border-t pt-2">
                   <span>Total</span>
@@ -419,6 +423,15 @@ const CheckoutPage = () => {
                   </p>
                 </div>
               )}
+
+              <div className="mt-4 p-3 bg-green-50 rounded-lg">
+                <p className="text-sm text-green-800 font-medium">
+                  📦 Delivery: 5-10 hours
+                </p>
+                <p className="text-xs text-green-700 mt-1">
+                  Your order will be delivered within 5-10 hours of confirmation
+                </p>
+              </div>
             </div>
           </div>
         </div>

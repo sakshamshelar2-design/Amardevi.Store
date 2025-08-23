@@ -125,7 +125,7 @@ const ContactPage = () => {
             {submitted && (
               <div className="bg-green-50 border border-green-200 text-green-700 px-4 py-3 rounded-lg mb-6">
                 <p className="font-medium">Message sent successfully!</p>
-                <p className="text-sm">Your order will be delivered within 10-15 hours.</p>
+                <p className="text-sm">Orders are delivered within 5-10 hours.</p>
               </div>
             )}
 
@@ -207,7 +207,7 @@ const ContactPage = () => {
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Do you offer home delivery?</h3>
               <p className="text-gray-600 mb-4">
-                Yes! We offer free home delivery on orders above ₹400.
+                Yes! We offer free home delivery on orders above ₹400. Delivery takes 5-10 hours.
               </p>
 
               <h3 className="font-semibold text-gray-900 mb-2">What are your payment methods?</h3>

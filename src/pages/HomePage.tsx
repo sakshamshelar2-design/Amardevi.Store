@@ -93,7 +93,7 @@ const HomePage = () => {
                 <Truck className="h-8 w-8 text-emerald-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Free Delivery</h3>
-              <p className="text-gray-600">Free home delivery on orders above ₹400</p>
+              <p className="text-gray-600">Free home delivery on orders above ₹400 • Delivered in 5-10 hours</p>
             </div>
             <div className="text-center group">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 transition-colors duration-200">
@@ -106,8 +106,8 @@ const HomePage = () => {
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-colors duration-200">
                 <Clock className="h-8 w-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Quick Service</h3>
-              <p className="text-gray-600">Fast and reliable service every time</p>
+              <h3 className="text-xl font-semibold mb-2">Quick Delivery</h3>
+              <p className="text-gray-600">Fast delivery in 5-10 hours</p>
             </div>
           </div>
         </div>

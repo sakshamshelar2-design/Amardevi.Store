@@ -137,6 +137,16 @@ const CartPage = () => {
                     Add ₹{(400 - state.total).toFixed(2)} more for free delivery
                   </p>
                 )}
+                {state.total < 400 && (
+                  <div className="bg-yellow-50 border border-yellow-200 p-3 rounded-lg">
+                    <p className="text-sm text-yellow-800 font-medium">
+                      Minimum order: ₹400 required
+                    </p>
+                    <p className="text-xs text-yellow-700 mt-1">
+                      Add ₹{(400 - state.total).toFixed(2)} more to place your order
+                    </p>
+                  </div>
+                )}
                 <div className="border-t pt-4">
                   <div className="flex justify-between text-lg font-bold">
                     <span>Total</span>
@@ -145,15 +155,24 @@ const CartPage = () => {
                 </div>
               </div>
 
-              <Link
-                to="/checkout"
-                className="w-full bg-emerald-500 text-white py-3 rounded-lg hover:bg-emerald-600 transition-colors duration-200 font-semibold text-center block"
-              >
-                Proceed to Checkout
-              </Link>
+              {state.total >= 400 ? (
+                <Link
+                  to="/checkout"
+                  className="w-full bg-emerald-500 text-white py-3 rounded-lg hover:bg-emerald-600 transition-colors duration-200 font-semibold text-center block"
+                >
+                  Proceed to Checkout
+                </Link>
+              ) : (
+                <button
+                  disabled
+                  className="w-full bg-gray-400 text-white py-3 rounded-lg cursor-not-allowed font-semibold"
+                >
+                  Minimum ₹400 Required
+                </button>
+              )}
 
               <p className="text-xs text-gray-500 mt-4 text-center">
-                Secure checkout powered by SSL encryption
+                Delivery in 5-10 hours • Secure checkout powered by SSL encryption
               </p>
             </div>
           </div>
