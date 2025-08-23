@@ -489,7 +489,7 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  }  
+  },  
   
 
 
