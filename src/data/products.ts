@@ -551,7 +551,7 @@ export const products: Product[] = [
   },   
   {
     id: 52,
-    name: 'Pav bhaji Masala Everst',
+    name: 'Pav bhaji Masala Everest',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -562,7 +562,7 @@ export const products: Product[] = [
   }, 
   {
     id: 53,
-    name: 'Shahi Paneer Masala Everst',
+    name: 'Shahi Paneer Masala Everest',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -573,7 +573,7 @@ export const products: Product[] = [
   },
   {
     id: 54,
-    name: 'Chole Masala Everst',
+    name: 'Chole Masala Everest',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -595,7 +595,7 @@ export const products: Product[] = [
   },
   {
     id: 56,
-    name: 'Samber Masala',
+    name: 'Sambhar Masala',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -617,7 +617,7 @@ export const products: Product[] = [
   },
   {
     id: 58,
-    name: 'Chicken Malasal Everst   ',
+    name: 'Chicken Masala Everest   ',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -628,7 +628,7 @@ export const products: Product[] = [
   },
   {
     id: 59,
-    name: 'Chicken Malasal Suhana   ',
+    name: 'Chicken Masala Suhana   ',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -639,7 +639,7 @@ export const products: Product[] = [
   },
   {
     id: 60,
-    name: 'Chicken Malasal Lucky  ',
+    name: 'Chicken Masala Lucky  ',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -650,7 +650,7 @@ export const products: Product[] = [
   },
   {
     id: 61,
-    name: 'Mutton Malasal Everst   ',
+    name: 'Mutton Masala Everest   ',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -660,8 +660,8 @@ export const products: Product[] = [
     onSale: true
   },
   {
-    id: 58,
-    name: 'Mutton Malasal Suhana   ',
+    id: 62,
+    name: 'Mutton Masala Suhana   ',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -671,8 +671,8 @@ export const products: Product[] = [
     onSale: true
   },
   {
-    id: 58,
-    name: 'Mutton Malasal Lucky  ',
+    id: 63,
+    name: 'Mutton Masala Lucky  ',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
@@ -681,8 +681,160 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-  
-  
+  {
+    id: 64,
+    name: 'Chicken Masala Everest   ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 65,
+    name: 'Pani puri Masala ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 66,
+    name: 'Kasturi Mathi',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 67,
+    name: 'Biryani Masala Everest   ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 68,
+    name: 'Biryani Masala Suhana  ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 69,
+    name: 'Biryani Masala Lucky  ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+   {
+    id: 70,
+    name: 'Kashmiri lal Masala   ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+   {
+    id: 71,
+    name: 'Garam Masala Everest  ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+   {
+    id: 72,
+    name: 'Kitchen King Masala ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+   {
+    id: 73,
+    name: 'Chaat Masala  ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+   {
+    id: 74,
+    name: 'Egg Curry Masala ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+   {
+    id: 75,
+    name: 'Paneer Butter Masala  ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+   {
+    id: 76,
+    name: 'Paneer Tikka Masala ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+   {
+    id: 77,
+    name: 'Mutter Paneer Masala ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
   
 ];
 
