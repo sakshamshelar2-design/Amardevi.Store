@@ -333,7 +333,168 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  }
+  },
+
+    // Biscuits (keeping existing)
+  {
+    id: 33,
+    name: 'Parle Marie',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 34,
+    name: 'Parle G',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Best biscuits - 100g',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 35,
+    name: 'Good day',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 36,
+    name: 'Britannia Nutri CHoice',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 33,
+    name: 'Oreo chocolate',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 33,
+    name: 'Oreo cream',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 33,
+    name: 'Borboun',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 33,
+    name: 'Hide&Seek',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 33,
+    name: 'Parle 50-50',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 33,
+    name: 'Parle krackjack',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 33,
+    name: 'Parle Monaco',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+   {
+    id: 33,
+    name: 'Parle 20-20',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+   {
+    id: 33,
+    name: 'Dark Fantasy',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 33,
+    name: 'T',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Biscuits',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+
+
+
+  
 ];
 
 export const categories = [
