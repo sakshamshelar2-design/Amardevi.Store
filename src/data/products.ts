@@ -211,11 +211,11 @@ export const products: Product[] = [
   // Dairy (keeping existing)
   {
     id: 21,
-    name: 'Fresh Milk',
-    price: 55,
+    name: 'Gokul MIlk',
+    price: 29,
     image: 'https://www.google.com/imgres?q=gokul%20milk%20images&imgurl=https%3A%2F%2Fwww.bbassets.com%2Fmedia%2Fuploads%2Fp%2Fl%2F40141618_2-gokul-buffalo-milk.jpg&imgrefurl=https%3A%2F%2Fwww.bigbasket.com%2Fpd%2F40141618%2Fgokul-buffalo-milk-500-ml-pouch%2F&docid=SPQKPHL3KJAZrM&tbnid=UAFdd01D3_CexM&vet=12ahUKEwiboazj2p2PAxVuxTgGHYUOMZEQM3oECBgQAA..i&w=500&h=500&hcb=2&ved=2ahUKEwiboazj2p2PAxVuxTgGHYUOMZEQM3oECBgQAA',
     category: 'Dairy',
-    description: 'Pure fresh milk - 1 liter',
+    description: 'Pure fresh milk - 500ml',
     inStock: true,
     featured: true
   },
@@ -225,7 +225,7 @@ export const products: Product[] = [
     price: 37,
     image: 'https://images.pexels.com/photos/6824540/pexels-photo-6824540.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dairy',
-    description: 'Fresh cottage cheese - 250g',
+    description: 'Fresh MIlk- 500ml',
     inStock: true
   },
   {
@@ -250,11 +250,11 @@ export const products: Product[] = [
   },
   {
     id: 25,
-    name: 'Yogurt',
-    price: 45,
+    name: 'Cheese cubes',
+    price: 15,
     image: 'https://images.pexels.com/photos/4109943/pexels-photo-4109943.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dairy',
-    description: 'Fresh yogurt - 400g',
+    description: 'Fresh cheese- 30g',
     inStock: true
   },
   
