@@ -490,10 +490,87 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },  
+
+   // Masala (keeping existing)  
+   
+   {
+    id: 47,
+    name: 'Kanda Lasun Masala',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },    
   
-
-
-
+  {
+    id: 48,
+    name: 'Mirchi Powder',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },    
+  {
+    id: 49,
+    name: 'Halad Powder',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  }, 
+   {
+    id: 50,
+    name: 'Badgi Mirchi Powder',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  }, 
+  {
+    id: 51,
+    name: 'Dhana Powder',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
+  {
+    id: 52,
+    name: 'Pav bhaji Masala Everst',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  }, 
+  {
+    id: 53,
+    name: 'Shahi Paneer Masala Everst',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },   
   
 ];
 
