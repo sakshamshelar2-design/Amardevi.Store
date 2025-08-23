@@ -615,7 +615,73 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-
+  {
+    id: 58,
+    name: 'Chicken Malasal Everst   ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 59,
+    name: 'Chicken Malasal Suhana   ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 60,
+    name: 'Chicken Malasal Lucky  ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 61,
+    name: 'Mutton Malasal Everst   ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 58,
+    name: 'Mutton Malasal Suhana   ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  {
+    id: 58,
+    name: 'Mutton Malasal Lucky  ',
+    price: 145,
+    originalPrice: 165,
+    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Masala',
+    description: 'Pure cooking oil - 1 liter',
+    inStock: true,
+    onSale: true
+  },
+  
   
   
 ];
