@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { ShoppingCart, Search, Menu, X, Store } from 'lucide-react';
+import { ShoppingCart, Search, Menu, X, Store, User } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useSearch } from '../context/SearchContext';
+import { useAuth } from '../context/AuthContext';
+import AuthModal from './AuthModal';
+import UserMenu from './UserMenu';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const { state } = useCart();
   const { searchQuery, setSearchQuery } = useSearch();
+  const { user, loading } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -81,18 +86,35 @@ const Navbar = () => {
           </div>
 
           {/* Cart */}
-          <Link
-            to="/cart"
-            className="relative p-2 text-gray-700 hover:text-emerald-600 transition-colors duration-200"
-          >
-            <ShoppingCart className="h-6 w-6" />
-            {itemCount > 0 && (
-              <span className="absolute -top-1 -right-1 bg-emerald-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center animate-pulse">
-                {itemCount}
-              </span>
+          <div className="flex items-center space-x-4">
+            {/* User Authentication */}
+            {loading ? (
+              <div className="w-8 h-8 bg-gray-200 rounded-full animate-pulse"></div>
+            ) : user ? (
+              <UserMenu />
+            ) : (
+              <button
+                onClick={() => setIsAuthModalOpen(true)}
+                className="flex items-center space-x-2 text-gray-700 hover:text-emerald-600 transition-colors duration-200 px-3 py-2 rounded-lg hover:bg-gray-100"
+              >
+                <User className="h-5 w-5" />
+                <span className="hidden md:block text-sm font-medium">Sign In</span>
+              </button>
             )}
-          </Link>
 
+            {/* Cart */}
+            <Link
+              to="/cart"
+              className="relative p-2 text-gray-700 hover:text-emerald-600 transition-colors duration-200"
+            >
+              <ShoppingCart className="h-6 w-6" />
+              {itemCount > 0 && (
+                <span className="absolute -top-1 -right-1 bg-emerald-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center animate-pulse">
+                  {itemCount}
+                </span>
+              )}
+            </Link>
+          </div>
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -138,6 +160,12 @@ const Navbar = () => {
           </div>
         </div>
       )}
+
+      {/* Auth Modal */}
+      <AuthModal 
+        isOpen={isAuthModalOpen} 
+        onClose={() => setIsAuthModalOpen(false)} 
+      />
     </nav>
   );
 };

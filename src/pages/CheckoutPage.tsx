@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { CreditCard, Truck, CheckCircle, Smartphone, Building2, Copy } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { useAuth } from '../context/AuthContext';
 
 const CheckoutPage = () => {
   const { state, dispatch } = useCart();
+  const { user } = useAuth();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
+    name: user?.displayName || '',
+    email: user?.email || '',
     phone: '',
     address: '',
     paymentMethod: 'cod'
@@ -114,9 +116,13 @@ const CheckoutPage = () => {
                     value={formData.name}
                     onChange={handleInputChange}
                     required
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-gray-50"
+                    readOnly={!!user?.displayName}
                     placeholder="Enter your full name"
                   />
+                  {user?.displayName && (
+                    <p className="text-xs text-gray-500 mt-1">Auto-filled from your Google account</p>
+                  )}
                 </div>
 
                 <div>
@@ -129,9 +135,13 @@ const CheckoutPage = () => {
                     value={formData.email}
                     onChange={handleInputChange}
                     required
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-gray-50"
+                    readOnly={!!user?.email}
                     placeholder="Enter your email"
                   />
+                  {user?.email && (
+                    <p className="text-xs text-gray-500 mt-1">Auto-filled from your Google account</p>
+                  )}
                 </div>
 
                 <div>
