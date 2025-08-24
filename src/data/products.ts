@@ -192,7 +192,7 @@ export const products: Product[] = [
     name: 'Chana Dal',
     price: 95,
     originalPrice: 110,
-    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://organofarmstore.co.in/wp-content/uploads/2023/09/rai-chana-daal.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Quality Chana Dal - 1kg',
     inStock: true,
