@@ -13,7 +13,6 @@ const HomePage = () => {
   const categories = [
     { name: 'Wheat', icon: '🌾', count: products.filter(p => p.category === 'Wheat').length },
     { name: 'Rice', icon: '🍚', count: products.filter(p => p.category === 'Rice').length },
-    { name: 'Detergent', icon: '🧴', count: products.filter(p => p.category === 'Detergent').length },
     { name: 'Dals', icon: '🍲', count: products.filter(p => p.category === 'Dals').length },
     { name: 'Beverages', icon: '☕', count: products.filter(p => p.category === 'Beverages').length },
     { name: 'Cooking Oil', icon: '🏠', count: products.filter(p => p.category === 'Household').length },
@@ -23,7 +22,7 @@ const HomePage = () => {
     { name: 'Biscuits', icon: '🍪', count: products.filter(p => p.category === 'Biscuits').length },
     { name: 'Masala', icon: '🌶️', count: products.filter(p => p.category === 'Masala').length },
      { name: 'Toothpaste', icon: '🪥', count: products.filter(p => p.category === 'Toothpaste' ).length },
-     { name: 'Soaps', icon: '🧼', count: products.filter(p => p.category === 'Soaps').length },
+     { name: 'Soaps&Detergent', icon: '🧼', count: products.filter(p => p.category === 'Soaps&Detergent').length },
      { name: 'Shampoo', icon: '🫧', count: products.filter(p => p.category === 'Shampoo').length },
      { name: 'Coconut', icon: '🥥', count: products.filter(p => p.category === 'Coconut').length },
      { name: 'Cleaning', icon: '🪣', count: products.filter(p => p.category === 'Cleaning').length },
