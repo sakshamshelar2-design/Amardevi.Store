@@ -337,7 +337,7 @@ export const products: Product[] = [
     image: 'https://www.news-medical.net/image-handler/picture/2021/9/shutterstock_251566309.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
     description: 'Premium green tea - 100g',
-    inStock: true
+    inStock: true,
      variants: [
       { id: '2-1kg', weight: '1 kg', price: 52 },
       { id: '2-5kg', weight: '5 kg', price: 245 },
