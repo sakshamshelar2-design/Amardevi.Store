@@ -172,7 +172,7 @@ export const products: Product[] = [
     id: 13,
     name: 'Toor Dal (Arhar)',
     price: 120,
-    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://organofarmstore.co.in/wp-content/uploads/2023/09/toor-dal.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Premium quality Toor Dal - 1kg',
     inStock: true,
