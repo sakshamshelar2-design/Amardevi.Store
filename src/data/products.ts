@@ -161,7 +161,7 @@ export const products: Product[] = [
     id: 12,
     name: 'Rin Detergent Bar',
     price: 45,
-    image: '"C:\Users\APURVA SHINDE\Downloads\rin.jpeg"?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/71izyScfEiL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Rin detergent bar - 250g',
     inStock: true
