@@ -940,12 +940,14 @@ export const products: Product[] = [
 
 export const categories = [
   'All',
-  'Wheat',
-  'Rice',
-  'Detergent',
-  'Pulses',
-  'Dairy',
+  'Wheat&Rice',
+  'Dals',
+  'Kitchen',
+  'Masala',
+  'Tea&Coffee',
+  'Biscuits',
+  'Dry Fruits',
+  'Cleaning',
   'Snacks',
-  'Beverages',
-  'Household'
+  'Dairy'
 ];
