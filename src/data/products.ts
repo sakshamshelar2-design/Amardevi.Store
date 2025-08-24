@@ -490,7 +490,7 @@ export const products: Product[] = [
     name: 'Parle Monaco',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.jiomart.com/images/product/original/490087809/parle-monaco-classic-regular-salted-biscuits-52-2-g-product-images-o490087809-p490087809-0-202302282150.jpg?im=Resize=(420,420)?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
