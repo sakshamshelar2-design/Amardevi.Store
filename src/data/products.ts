@@ -45,7 +45,6 @@ export const products: Product[] = [
     onSale: true
   },
   
-  // Rice
   {
     id: 5,
     name: 'Basmati Rice Premium',
