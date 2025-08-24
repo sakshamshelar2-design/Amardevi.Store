@@ -322,7 +322,7 @@ export const products: Product[] = [
     name: 'Parle Marie',
     price: 35,
     originalPrice: 45,
-    image:'https://m.media-amazon.com/images/I/81sxxaCw35L.jpg?auto=compress&cs=tinysrgb&w=400',
+    image:'https://ik.imagekit.io/wlfr/wellness/images/products/340609-1.jpg/tr:w-3840,c-at_max,cm-pad_resize,ar-1210-700,pr-true,f-auto,q-70,l-image,i-Wellness_logo_BDwqbQao9.png,lfo-bottom_right,w-200,h-90,c-at_least,cm-pad_resize,l-end?auto=compress&cs=tinysrgb&w=400',
     category: 'Snacks',
     description: 'Delicious cream biscuits',
     inStock: true,
