@@ -141,7 +141,7 @@ export const products: Product[] = [
     id: 10,
     name: 'Ariel Liquid Detergent',
     price: 280,
-    image: 'https://images-cdn.ubuy.co.in/67372b787103621c4f2c7ff7-ariel-matic-liquid-detergent-front.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/617iMYaN89L.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Ariel liquid detergent - 1 liter',
     inStock: true
