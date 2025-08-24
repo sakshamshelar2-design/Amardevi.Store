@@ -202,7 +202,7 @@ export const products: Product[] = [
     id: 16,
     name: 'Masoor Dal',
     price: 85,
-    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://rexzeeimpex.com/wp-content/uploads/2024/02/masoor-dal-red-lentils.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Red lentils (Masoor Dal) - 1kg',
     inStock: true
