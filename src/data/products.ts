@@ -222,7 +222,7 @@ export const products: Product[] = [
     name: 'Rajma (Kidney Beans)',
     price: 165,
     originalPrice: 185,
-    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://healthydig.in/wp-content/uploads/2020/10/Rajma-1.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Premium Rajma (Kidney Beans) - 1kg',
     inStock: true,
