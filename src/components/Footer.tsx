@@ -54,13 +54,13 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-emerald-400 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  123 Market Street<br />
-                  New Delhi, 110001
+                  Talegaon Dabhade,410507<br />
+                  
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-emerald-400" />
-                <span className="text-gray-300">+91 98765 43210</span>
+                <span className="text-gray-300">+91 9767010787</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-emerald-400" />
