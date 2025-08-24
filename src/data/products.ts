@@ -232,7 +232,7 @@ export const products: Product[] = [
     id: 19,
     name: 'Kabuli Chana',
     price: 125,
-    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://thechakkico.com/cdn/shop/files/IMG_3874.jpg?v=1740166220?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'White chickpeas (Kabuli Chana) - 1kg',
     inStock: true
