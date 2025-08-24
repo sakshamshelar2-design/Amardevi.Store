@@ -182,7 +182,7 @@ export const products: Product[] = [
     id: 14,
     name: 'Moong Dal',
     price: 135,
-    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://zamaorganics.com/cdn/shop/files/WebsiteProductPhoto-SetMargins-2024-02-07T133451.393.png?v=1753422791?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Fresh Moong Dal - 1kg',
     inStock: true
