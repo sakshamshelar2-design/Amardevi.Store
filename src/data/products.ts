@@ -343,7 +343,7 @@ export const products: Product[] = [
       { id: '3-1kg', weight: '1 kg', price: 68 },
       { id: '3-2kg', weight: '2 kg', price: 130 }
   ]
-  },
+  }
   {
     id: 30,
     name: 'Coffee Beans',
