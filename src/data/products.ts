@@ -338,6 +338,11 @@ export const products: Product[] = [
     category: 'Tea&Coffee',
     description: 'Premium green tea - 100g',
     inStock: true
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
   },
   {
     id: 30,
