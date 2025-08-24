@@ -93,7 +93,7 @@ export const products: Product[] = [
     name: 'Surf Excel Detergent',
     price: 155,
     image: 'https://m.media-amazon.com/images/I/619HRPW3elL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Detergent',
+    category: 'Cleaning',
     description: 'Surf Excel washing powder - 1kg',
     inStock: true,
     featured: true
@@ -103,7 +103,7 @@ export const products: Product[] = [
     name: 'Ariel Liquid Detergent',
     price: 280,
     image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Detergent',
+    category: 'Cleaning',
     description: 'Ariel liquid detergent - 1 liter',
     inStock: true
   },
@@ -113,7 +113,7 @@ export const products: Product[] = [
     price: 185,
     originalPrice: 205,
     image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Detergent',
+    category: 'Cleaning',
     description: 'Tide washing powder - 1kg',
     inStock: true,
     onSale: true
@@ -123,7 +123,7 @@ export const products: Product[] = [
     name: 'Rin Detergent Bar',
     price: 45,
     image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Detergent',
+    category: 'Cleaning',
     description: 'Rin detergent bar - 250g',
     inStock: true
   },
