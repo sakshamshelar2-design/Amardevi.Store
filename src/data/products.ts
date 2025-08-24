@@ -413,7 +413,7 @@ export const products: Product[] = [
     name: 'Britannia Nutri Choice',
     price: 145,
     originalPrice: 165,
-    image: 'https://www.bbassets.com/media/uploads/p/l/100012345_16-britannia-nutrichoice-digestive-high-fibre-biscuits.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/71+kVe5LuiL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
