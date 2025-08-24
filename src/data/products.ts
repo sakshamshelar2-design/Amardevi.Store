@@ -151,7 +151,7 @@ export const products: Product[] = [
     name: 'Tide Detergent Powder',
     price: 185,
     originalPrice: 205,
-    image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://kitchenclubindia.com/cdn/shop/files/tide_lemon_cef4368d-61d6-494b-9c16-39712b447f5a.jpg?v=1711096937?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Tide washing powder - 1kg',
     inStock: true,
