@@ -250,7 +250,7 @@ export const products: Product[] = [
   // Dairy (keeping existing)
   {
     id: 21,
-    name: 'Gokul MIlk',
+    name: 'Gokul Milk',
     price: 29,
     image: 'https://www.google.com/imgres?q=gokul%20milk%20images&imgurl=https%3A%2F%2Fwww.bbassets.com%2Fmedia%2Fuploads%2Fp%2Fl%2F40141618_2-gokul-buffalo-milk.jpg&imgrefurl=https%3A%2F%2Fwww.bigbasket.com%2Fpd%2F40141618%2Fgokul-buffalo-milk-500-ml-pouch%2F&docid=SPQKPHL3KJAZrM&tbnid=UAFdd01D3_CexM&vet=12ahUKEwiboazj2p2PAxVuxTgGHYUOMZEQM3oECBgQAA..i&w=500&h=500&hcb=2&ved=2ahUKEwiboazj2p2PAxVuxTgGHYUOMZEQM3oECBgQAA',
     category: 'Dairy',
@@ -262,7 +262,7 @@ export const products: Product[] = [
     id: 22,
     name: 'Gokul milk',
     price: 37,
-    image: 'https://images.pexels.com/photos/6824540/pexels-photo-6824540.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.bbassets.com/media/uploads/p/l/40141618_2-gokul-buffalo-milk.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dairy',
     description: 'Fresh MIlk- 500ml',
     inStock: true
