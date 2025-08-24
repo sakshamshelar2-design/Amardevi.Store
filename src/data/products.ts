@@ -479,7 +479,7 @@ export const products: Product[] = [
     name: 'Parle krackjack',
     price: 145,
     originalPrice: 165,
-   image:'https://gandhifood.com/cdn/shop/products/b5c22e_d82b2e9ee29640cf8985291058123b19_mv2_500x.jpg?v=1609651979?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://gandhifood.com/cdn/shop/products/b5c22e_d82b2e9ee29640cf8985291058123b19_mv2_500x.jpg?v=1609651979?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
