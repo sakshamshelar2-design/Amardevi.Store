@@ -271,7 +271,7 @@ export const products: Product[] = [
     id: 23,
     name: 'Paneer',
     price: 280,
-    image: 'https://images.pexels.com/photos/6824540/pexels-photo-6824540.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://etedge-insights.com/wp-content/uploads/2025/04/Paneer.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dairy',
     description: 'Fresh cottage cheese - 250g',
     inStock: true
