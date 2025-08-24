@@ -141,7 +141,7 @@ export const products: Product[] = [
     id: 10,
     name: 'Ariel Liquid Detergent',
     price: 280,
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKO4wKOIWVNv01RJUIK8Ag-ryNY_T9wcfnYw&s?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2025/4/23/20e00eef-5ee2-442c-b26b-ee5f225d78c3_297115_1.pngauto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Ariel liquid detergent - 1 liter',
     inStock: true
