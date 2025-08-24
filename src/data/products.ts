@@ -141,7 +141,7 @@ export const products: Product[] = [
     id: 10,
     name: 'Ariel Liquid Detergent',
     price: 280,
-    image: 'https://m.media-amazon.com/images/I/617iMYaN89L.jpg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://m.media-amazon.com/images/I/617iMYaN89L.jpg?auto=compress&cs=tinysrgb&w=800',
     category: 'Cleaning',
     description: 'Ariel liquid detergent - 1 liter',
     inStock: true
