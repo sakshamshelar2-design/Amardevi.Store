@@ -241,7 +241,7 @@ export const products: Product[] = [
     id: 20,
     name: 'Black Chana',
     price: 95,
-    image: 'https://5.imimg.com/data5/SELLER/Default/2023/11/361925521/NX/TI/QE/38812196/black-chana-dal-500x500.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://5.imimg.com/data5/JD/BR/PT/SELLER-10619163/black-chana-dal-1000x1000.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Black chickpeas (Kala Chana) - 1kg',
     inStock: true
