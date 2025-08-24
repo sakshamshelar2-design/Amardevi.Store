@@ -329,22 +329,27 @@ export const products: Product[] = [
     onSale: true
   },
   
-  // Beverages (keeping existing)
+  // Tea&Coffee (keeping existing)
   {
     id: 29,
-    name: 'Green Tea',
+    name: 'Red Label',
     price: 125,
     image: 'https://www.news-medical.net/image-handler/picture/2021/9/shutterstock_251566309.jpg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beverages',
+    category: 'Tea&Coffee',
     description: 'Premium green tea - 100g',
     inStock: true
+     variants: [
+      { id: '3-500g', weight: '500 g', price: 38 },
+      { id: '3-1kg', weight: '1 kg', price: 68 },
+      { id: '3-2kg', weight: '2 kg', price: 130 }
+  ]
   },
   {
     id: 30,
     name: 'Coffee Beans',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beverages',
+    category: 'Tea&Coffee',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true
@@ -355,7 +360,7 @@ export const products: Product[] = [
     price: 75,
     originalPrice: 85,
     image: 'https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beverages',
+    category: 'Tea&Coffee',
     description: 'Fresh orange juice - 500ml',
     inStock: true,
     onSale: true
