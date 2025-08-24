@@ -51,7 +51,7 @@ const Navbar = () => {
             </div>
             <div>
               <span className="text-xl font-bold text-gray-900">Amardevi</span>
-              <span className="text-sm text-gray-600 block -mt-1">Supermarket</span>
+              <span className="text-sm text-gray-600 block -mt-1">GenralStore</span>
             </div>
           </Link>
 
