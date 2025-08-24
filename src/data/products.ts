@@ -1,7 +1,7 @@
 import { Product } from '../types';
 
 export const products: Product[] = [
-  // Wheat
+  // Wheat&Rice
   {
     id: 1,
     name: 'Gold wheat',
