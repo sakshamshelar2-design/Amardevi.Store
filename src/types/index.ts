@@ -1,3 +1,11 @@
+export interface ProductVariant {
+  id: string;
+  weight: string;
+  price: number;
+  originalPrice?: number;
+  discount?: number;
+}
+
 export interface Product {
   id: number;
   name: string;
@@ -9,10 +17,12 @@ export interface Product {
   inStock: boolean;
   featured?: boolean;
   onSale?: boolean;
+  variants?: ProductVariant[];
 }
 
 export interface CartItem extends Product {
   quantity: number;
+  selectedVariant?: ProductVariant;
 }
 
 export interface Customer {

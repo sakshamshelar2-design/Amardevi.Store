@@ -1,8 +1,9 @@
 import React, { createContext, useContext, useReducer, ReactNode } from 'react';
-import { Product } from '../types';
+import { Product, ProductVariant } from '../types';
 
 interface CartItem extends Product {
   quantity: number;
+  selectedVariant?: ProductVariant;
 }
 
 interface CartState {
@@ -11,7 +12,7 @@ interface CartState {
 }
 
 type CartAction =
-  | { type: 'ADD_TO_CART'; product: Product }
+  | { type: 'ADD_TO_CART'; product: Product; selectedVariant?: ProductVariant }
   | { type: 'REMOVE_FROM_CART'; productId: number }
   | { type: 'UPDATE_QUANTITY'; productId: number; quantity: number }
   | { type: 'CLEAR_CART' };
@@ -24,11 +25,14 @@ const CartContext = createContext<{
 const cartReducer = (state: CartState, action: CartAction): CartState => {
   switch (action.type) {
     case 'ADD_TO_CART': {
-      const existingItem = state.items.find(item => item.id === action.product.id);
+      const existingItem = state.items.find(item => 
+        item.id === action.product.id && 
+        item.selectedVariant?.id === action.selectedVariant?.id
+      );
       
       if (existingItem) {
         const updatedItems = state.items.map(item =>
-          item.id === action.product.id
+          item.id === action.product.id && item.selectedVariant?.id === action.selectedVariant?.id
             ? { ...item, quantity: item.quantity + 1 }
             : item
         );
@@ -37,7 +41,7 @@ const cartReducer = (state: CartState, action: CartAction): CartState => {
           total: updatedItems.reduce((sum, item) => sum + item.price * item.quantity, 0)
         };
       } else {
-        const updatedItems = [...state.items, { ...action.product, quantity: 1 }];
+        const updatedItems = [...state.items, { ...action.product, quantity: 1, selectedVariant: action.selectedVariant }];
         return {
           items: updatedItems,
           total: updatedItems.reduce((sum, item) => sum + item.price * item.quantity, 0)

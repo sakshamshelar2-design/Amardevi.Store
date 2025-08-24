@@ -12,7 +12,12 @@ export const products: Product[] = [
     description: 'Premium quality wheat flour for all your baking needs',
     inStock: true,
     featured: true,
-    onSale: true
+    onSale: true,
+    variants: [
+      { id: '1-1kg', weight: '1 kg', price: 45, originalPrice: 55, discount: 18 },
+      { id: '1-5kg', weight: '5 kg', price: 210, originalPrice: 250, discount: 16 },
+      { id: '1-10kg', weight: '10 kg', price: 400, originalPrice: 480, discount: 17 }
+    ]
   },
   {
     id: 2,
@@ -22,7 +27,12 @@ export const products: Product[] = [
     category: 'Wheat&Rice',
     description: 'Nutritious whole wheat flour rich in fiber',
     inStock: true,
-    featured: true
+    featured: true,
+    variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
   },
   {
     id: 3,
@@ -31,7 +41,12 @@ export const products: Product[] = [
     image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Wheat&Rice',
     description: 'Certified organic wheat flour - 1kg',
-    inStock: true
+    inStock: true,
+    variants: [
+      { id: '3-500g', weight: '500 g', price: 38 },
+      { id: '3-1kg', weight: '1 kg', price: 68 },
+      { id: '3-2kg', weight: '2 kg', price: 130 }
+    ]
   },
   {
     id: 4,
@@ -42,7 +57,11 @@ export const products: Product[] = [
     category: 'Wheat&Rice',
     description: 'Healthy multi-grain flour blend',
     inStock: true,
-    onSale: true
+    onSale: true,
+    variants: [
+      { id: '4-1kg', weight: '1 kg', price: 75, originalPrice: 85, discount: 12 },
+      { id: '4-5kg', weight: '5 kg', price: 360, originalPrice: 400, discount: 10 }
+    ]
   },
   
   {
@@ -53,7 +72,13 @@ export const products: Product[] = [
     category: 'Wheat&Rice',
     description: 'Premium quality Basmati rice - 1kg',
     inStock: true,
-    featured: true
+    featured: true,
+    variants: [
+      { id: '5-1kg', weight: '1 kg', price: 180 },
+      { id: '5-5kg', weight: '5 kg', price: 850 },
+      { id: '5-10kg', weight: '10 kg', price: 1650 },
+      { id: '5-25kg', weight: '25 kg', price: 4000 }
+    ]
   },
   {
     id: 6,
@@ -62,7 +87,12 @@ export const products: Product[] = [
     image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Wheat&Rice',
     description: 'Fragrant Jasmine rice - 1kg',
-    inStock: true
+    inStock: true,
+    variants: [
+      { id: '6-1kg', weight: '1 kg', price: 160 },
+      { id: '6-5kg', weight: '5 kg', price: 750 },
+      { id: '6-10kg', weight: '10 kg', price: 1450 }
+    ]
   },
   {
     id: 7,
@@ -73,7 +103,11 @@ export const products: Product[] = [
     category: 'Wheat&Rice',
     description: 'Healthy brown rice rich in nutrients - 1kg',
     inStock: true,
-    onSale: true
+    onSale: true,
+    variants: [
+      { id: '7-1kg', weight: '1 kg', price: 120, originalPrice: 140, discount: 14 },
+      { id: '7-5kg', weight: '5 kg', price: 580, originalPrice: 650, discount: 11 }
+    ]
   },
   {
     id: 8,
@@ -83,7 +117,13 @@ export const products: Product[] = [
     category: 'Wheat&Rice',
     description: 'Premium Sona Masoori rice - 1kg',
     inStock: true,
-    featured: true
+    featured: true,
+    variants: [
+      { id: '8-1kg', weight: '1 kg', price: 95 },
+      { id: '8-5kg', weight: '5 kg', price: 450 },
+      { id: '8-10kg', weight: '10 kg', price: 880 },
+      { id: '8-25kg', weight: '25 kg', price: 2100 }
+    ]
   },
   
   // Detergent

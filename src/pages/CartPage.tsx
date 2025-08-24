@@ -73,6 +73,11 @@ const CartPage = () => {
                       <h3 className="text-lg font-semibold text-gray-900 truncate">
                         {item.name}
                       </h3>
+                      {item.selectedVariant && (
+                        <p className="text-sm text-gray-500 mt-1">
+                          Weight: {item.selectedVariant.weight}
+                        </p>
+                      )}
                       <p className="text-sm text-gray-600 mt-1">{item.category}</p>
                       <p className="text-lg font-bold text-emerald-600 mt-2">
                         ₹{item.price}
