@@ -402,7 +402,7 @@ export const products: Product[] = [
     name: 'Good day',
     price: 145,
     originalPrice: 165,
-    image: 'https://www.bbassets.com/media/uploads/p/xl/270729_21-britannia-good-day-cashew-cookies.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://gpsretail.in/wp-content/uploads/2024/11/61kBRuYl3vL._AC_UF10001000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
