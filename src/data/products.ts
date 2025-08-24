@@ -8,7 +8,7 @@ export const products: Product[] = [
     price: 45,
     originalPrice: 55,
     image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Wheat',
+    category: 'Wheat&Rice',
     description: 'Premium quality wheat flour for all your baking needs',
     inStock: true,
     featured: true,
@@ -19,7 +19,7 @@ export const products: Product[] = [
     name: 'Rajwadi wheat',
     price: 52,
     image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Wheat',
+    category: 'Wheat&Rice',
     description: 'Nutritious whole wheat flour rich in fiber',
     inStock: true,
     featured: true
@@ -29,7 +29,7 @@ export const products: Product[] = [
     name: 'Organic Wheat Flour',
     price: 68,
     image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Wheat',
+    category: 'Wheat&Rice',
     description: 'Certified organic wheat flour - 1kg',
     inStock: true
   },
@@ -39,7 +39,7 @@ export const products: Product[] = [
     price: 75,
     originalPrice: 85,
     image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Wheat',
+    category: 'Wheat&Rice',
     description: 'Healthy multi-grain flour blend',
     inStock: true,
     onSale: true
@@ -51,7 +51,7 @@ export const products: Product[] = [
     name: 'Basmati Rice Premium',
     price: 180,
     image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Rice',
+    category: 'Wheat&Rice',
     description: 'Premium quality Basmati rice - 1kg',
     inStock: true,
     featured: true
@@ -61,7 +61,7 @@ export const products: Product[] = [
     name: 'Jasmine Rice',
     price: 160,
     image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Rice',
+    category: 'Wheat&Rice',
     description: 'Fragrant Jasmine rice - 1kg',
     inStock: true
   },
@@ -71,7 +71,7 @@ export const products: Product[] = [
     price: 120,
     originalPrice: 140,
     image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Rice',
+    category: 'Wheat&Rice',
     description: 'Healthy brown rice rich in nutrients - 1kg',
     inStock: true,
     onSale: true
@@ -81,7 +81,7 @@ export const products: Product[] = [
     name: 'Sona Masoori Rice',
     price: 95,
     image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Rice',
+    category: 'Wheat&Rice',
     description: 'Premium Sona Masoori rice - 1kg',
     inStock: true,
     featured: true
