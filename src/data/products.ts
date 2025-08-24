@@ -593,7 +593,7 @@ export const products: Product[] = [
     name: 'Pav bhaji Masala Everest',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/S/aplus-media-library-service-media/9dc984fe-d387-4daa-b569-f5f20de34a8e.__CR0,0,300,300_PT0_SX300_V1___.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
