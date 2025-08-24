@@ -338,7 +338,7 @@ export const products: Product[] = [
     category: 'Tea&Coffee',
     description: 'Premium green tea - 100g',
     inStock: true
-  }
+  },
   {
     id: 30,
     name: 'Coffee Beans',
