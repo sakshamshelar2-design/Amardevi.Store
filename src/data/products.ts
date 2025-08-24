@@ -391,7 +391,7 @@ export const products: Product[] = [
     name: 'Parle G',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.chai-masala.co.uk/wp-content/uploads/2021/12/paele-G-a-768x512.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
     description: 'Best biscuits - 100g',
     inStock: true,
