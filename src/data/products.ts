@@ -433,9 +433,8 @@ export const products: Product[] = [
   {
     id: 38,
     name: 'Oreo cream',
-    price: 145,
     originalPrice: 165,
-    image: 'https://www.bbassets.com/media/uploads/p/l/100423120_46-cadbury-oreo-creame-biscuit-vanilla.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/41XPnuR-uJL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
