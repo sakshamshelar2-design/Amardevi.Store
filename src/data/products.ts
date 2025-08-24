@@ -334,7 +334,7 @@ export const products: Product[] = [
     id: 29,
     name: 'Green Tea',
     price: 125,
-    image: 'https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.news-medical.net/image-handler/picture/2021/9/shutterstock_251566309.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Beverages',
     description: 'Premium green tea - 100g',
     inStock: true
