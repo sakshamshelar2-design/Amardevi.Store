@@ -361,14 +361,19 @@ export const products: Product[] = [
   },
   {
     id: 31,
-    name: 'Fresh Juice',
+    name: 'Lipton Green Tea',
     price: 75,
     originalPrice: 85,
     image: 'https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
     description: 'Fresh orange juice - 500ml',
     inStock: true,
-    onSale: true
+    onSale: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
   },
   
   // Household (keeping existing)
