@@ -211,7 +211,7 @@ export const products: Product[] = [
     id: 17,
     name: 'Urad Dal',
     price: 145,
-    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://zamaorganics.com/cdn/shop/files/WebsiteProductPhoto-SetMargins-2024-02-07T155151.458.png?v=1753180709?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Black gram (Urad Dal) - 1kg',
     inStock: true,
