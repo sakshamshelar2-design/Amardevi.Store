@@ -134,7 +134,7 @@ export const products: Product[] = [
     name: 'Toor Dal (Arhar)',
     price: 120,
     image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Pulses',
+    category: 'Dals',
     description: 'Premium quality Toor Dal - 1kg',
     inStock: true,
     featured: true
@@ -144,7 +144,7 @@ export const products: Product[] = [
     name: 'Moong Dal',
     price: 135,
     image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Pulses',
+    category: 'Dals',
     description: 'Fresh Moong Dal - 1kg',
     inStock: true
   },
@@ -154,7 +154,7 @@ export const products: Product[] = [
     price: 95,
     originalPrice: 110,
     image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Pulses',
+    category: 'Dals',
     description: 'Quality Chana Dal - 1kg',
     inStock: true,
     onSale: true
@@ -164,7 +164,7 @@ export const products: Product[] = [
     name: 'Masoor Dal',
     price: 85,
     image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Pulses',
+    category: 'Dals',
     description: 'Red lentils (Masoor Dal) - 1kg',
     inStock: true
   },
@@ -173,7 +173,7 @@ export const products: Product[] = [
     name: 'Urad Dal',
     price: 145,
     image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Pulses',
+    category: 'Dals',
     description: 'Black gram (Urad Dal) - 1kg',
     inStock: true,
     featured: true
@@ -184,7 +184,7 @@ export const products: Product[] = [
     price: 165,
     originalPrice: 185,
     image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Pulses',
+    category: 'Dals',
     description: 'Premium Rajma (Kidney Beans) - 1kg',
     inStock: true,
     onSale: true
@@ -194,7 +194,7 @@ export const products: Product[] = [
     name: 'Kabuli Chana',
     price: 125,
     image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Pulses',
+    category: 'Dals',
     description: 'White chickpeas (Kabuli Chana) - 1kg',
     inStock: true
   },
@@ -203,7 +203,7 @@ export const products: Product[] = [
     name: 'Black Chana',
     price: 95,
     image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Pulses',
+    category: 'Dals',
     description: 'Black chickpeas (Kala Chana) - 1kg',
     inStock: true
   },
