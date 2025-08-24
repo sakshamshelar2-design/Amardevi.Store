@@ -443,10 +443,10 @@ export const products: Product[] = [
   },   
   {
     id: 39,
-    name: 'Borboun',
+    name: 'Bourbon',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.antmascot.com/_next/image?url=https%3A%2F%2Fd3olmw93qe7qxx.cloudfront.net%2Fimages%2Fproducts%2FB9001640.jpg&w=828&q=85?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
