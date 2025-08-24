@@ -11,25 +11,17 @@ const HomePage = () => {
   const saleProducts = products.filter(product => product.onSale).slice(0, 4);
 
   const categories = [
-    { name: 'Wheat', icon: '🌾', count: products.filter(p => p.category === 'Wheat').length },
-    { name: 'Rice', icon: '🍚', count: products.filter(p => p.category === 'Rice').length },
-    { name: 'Dals', icon: '🍲', count: products.filter(p => p.category === 'Dals').length },
-    { name: 'Beverages', icon: '☕', count: products.filter(p => p.category === 'Beverages').length },
-    { name: 'Cooking Oil', icon: '🏠', count: products.filter(p => p.category === 'Household').length },
+    { name: 'Wheat&Rice', icon: '🌾', count: products.filter(p => p.category === 'Wheat&Rice').length },
+    { name: 'Dals', icon: '🍲', count: products.filter(p => p.category === 'Dals').length },   
      { name: 'Kitchen', icon: '🍲', count: products.filter(p => p.category === 'Kitchen').length },
-    { name: 'Dairy', icon: '🥛', count: products.filter(p => p.category === 'Dairy').length },
-    { name: 'Dry Fruits', icon: '🥜', count: products.filter(p => p.category === 'Dry Fruits').length },
-    { name: 'Biscuits', icon: '🍪', count: products.filter(p => p.category === 'Biscuits').length },
-    { name: 'Masala', icon: '🌶️', count: products.filter(p => p.category === 'Masala').length },
-     { name: 'Toothpaste', icon: '🪥', count: products.filter(p => p.category === 'Toothpaste' ).length },
-     { name: 'Soaps&Detergent', icon: '🧼', count: products.filter(p => p.category === 'Soaps&Detergent').length },
-     { name: 'Shampoo', icon: '🫧', count: products.filter(p => p.category === 'Shampoo').length },
-     { name: 'Coconut', icon: '🥥', count: products.filter(p => p.category === 'Coconut').length },
-     { name: 'Cleaning', icon: '🪣', count: products.filter(p => p.category === 'Cleaning').length },
+     { name: 'Masala', icon: '🌶️', count: products.filter(p => p.category === 'Masala').length },
+    { name: 'Tea&Coffee', icon: '☕', count: products.filter(p => p.category === 'Tea&coffee').length },
+      { name: 'Biscuits', icon: '🍪', count: products.filter(p => p.category === 'Biscuits').length },
+     { name: 'Dry Fruits', icon: '🥜', count: products.filter(p => p.category === 'Dry Fruits').length }, 
+    { name: 'Cleaning', icon: '🪣', count: products.filter(p => p.category === 'Cleaning').length },
      { name: 'Snacks', icon: '😋', count: products.filter(p => p.category === 'Snacks').length },
-     { name: 'Readymade', icon: '🍜', count: products.filter(p => p.category === 'Readymade').length },
-     { name: 'Household', icon: '🧹', count: products.filter(p => p.category === 'Household').length },
-    
+       { name: 'Dairy', icon: '🥛', count: products.filter(p => p.category === 'Dairy').length },
+       
   ];
 
   return (
