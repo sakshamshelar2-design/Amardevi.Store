@@ -1580,7 +1580,7 @@ export const products: Product[] = [
     category: 'Snacks',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
-    featured: true,
+    featured: true
    }
     {   
     id: 126,
