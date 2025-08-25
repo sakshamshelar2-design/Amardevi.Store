@@ -1571,7 +1571,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
   
    {   
     id: 125,
@@ -1582,7 +1582,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
     {   
     id: 126,
     name: 'VijayLaxmi Dryfruit Farsan',
@@ -1592,7 +1592,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
   {   
     id: 127,
     name: 'VijayLaxmi Red Farsan',
@@ -1602,7 +1602,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
     {   
     id: 128,
     name: 'VijayLaxmi yellow Farsan',
@@ -1612,7 +1612,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
   {   
     id: 129,
     name: 'Apna Farsan',
@@ -1622,7 +1622,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
      {   
     id: 130,
     name: 'Apna Waffers',
@@ -1632,7 +1632,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
       {   
     id: 131,
     name: 'Apna Gathi Shev',
@@ -1642,7 +1642,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
   {   
     id: 132,
     name: 'Apan shev ',
@@ -1652,7 +1652,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
      {   
     id: 133,
     name: 'Haldiram Aalu bhujiya',
@@ -1662,7 +1662,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
      {   
     id: 134,
     name: 'Bhudhani Waffers',
@@ -1672,7 +1672,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
       {   
     id: 135,
     name: 'Soya sticks',
@@ -1682,7 +1682,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
   //Dal
     {   
     id: 136,
@@ -1693,7 +1693,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   }
+   },
   
   
   
