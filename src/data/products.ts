@@ -1804,7 +1804,7 @@ export const products: Product[] = [
       { id: '2-10kg', weight: '10 kg', price: 470 }
     ]
    },
-  
+  //dryfruits
   
   
   
