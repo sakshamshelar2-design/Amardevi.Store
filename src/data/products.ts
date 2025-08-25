@@ -1881,7 +1881,7 @@ export const products: Product[] = [
     ]
    },
      {   
-    id: 143,
+    id: 149,
     name: 'Black Manuke',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
@@ -1896,7 +1896,7 @@ export const products: Product[] = [
     ]
    },
      {   
-    id: 143,
+    id: 150,
     name: 'Manuke(kishmish)',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
