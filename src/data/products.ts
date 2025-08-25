@@ -297,7 +297,7 @@ export const products: Product[] = [
     inStock: true
   },
   
-  // Sn (keeping existing)
+  // Snanks (keeping existing)
   {
     id: 26,
     name: 'Mixed Nuts',
