@@ -5,15 +5,30 @@ import ProductCard from '../components/ProductCard';
 import { products, categories } from '../data/products';
 import { Product } from '../types';
 import { useSearch } from '../context/SearchContext';
+import { useAuth } from '../context/AuthContext';
+import { useCart } from '../context/CartContext';
+import AuthModal from '../components/AuthModal';
 
 const ProductsPage = () => {
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [sortBy, setSortBy] = useState('name');
   const [localSearchQuery, setLocalSearchQuery] = useState('');
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const location = useLocation();
   const { searchQuery, setSearchQuery } = useSearch();
+  const { user } = useAuth();
+  const { dispatch } = useCart();
 
+  const handleAuthRequired = () => {
+    setIsAuthModalOpen(true);
+  };
+
+  const handleAuthSuccess = () => {
+    setIsAuthModalOpen(false);
+    // Add pending item to cart after successful login
+    dispatch({ type: 'ADD_PENDING_TO_CART' });
+  };
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);
     const categoryParam = searchParams.get('category');
@@ -156,7 +171,7 @@ const ProductsPage = () => {
         {filteredProducts.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {filteredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} onAuthRequired={handleAuthRequired} />
             ))}
           </div>
         ) : (
@@ -195,4 +210,10 @@ const ProductsPage = () => {
   );
 };
 
+      {/* Auth Modal */}
+      <AuthModal 
+        isOpen={isAuthModalOpen} 
+        onClose={() => setIsAuthModalOpen(false)}
+        onSuccess={handleAuthSuccess}
+      />
 export default ProductsPage;

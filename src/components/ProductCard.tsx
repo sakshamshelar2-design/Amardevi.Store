@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import { ShoppingCart, Star, ChevronDown } from 'lucide-react';
 import { Product, ProductVariant } from '../types';
 import { useCart } from '../context/CartContext';
+import { useAuth } from '../context/AuthContext';
 
 interface ProductCardProps {
   product: Product;
+  onAuthRequired?: () => void;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ product, onAuthRequired }) => {
   const { dispatch } = useCart();
+  const { user } = useAuth();
   const [selectedVariant, setSelectedVariant] = useState<ProductVariant>(
     product.variants?.[0] || {
       id: `${product.id}-default`,
@@ -20,6 +23,25 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const handleAddToCart = () => {
+    if (!user) {
+      // Store the item to be added after login
+      const productToAdd = {
+        ...product,
+        price: selectedVariant.price,
+        originalPrice: selectedVariant.originalPrice
+      };
+      dispatch({ 
+        type: 'SET_PENDING_ITEM', 
+        product: productToAdd,
+        selectedVariant 
+      });
+      // Trigger auth modal
+      if (onAuthRequired) {
+        onAuthRequired();
+      }
+      return;
+    }
+
     const productToAdd = {
       ...product,
       price: selectedVariant.price,

@@ -4,11 +4,27 @@ import { ArrowRight, Truck, Shield, Clock, Star, Tag } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
 import { products } from '../data/products';
 import { useSearch } from '../context/SearchContext';
+import { useAuth } from '../context/AuthContext';
+import { useCart } from '../context/CartContext';
+import AuthModal from '../components/AuthModal';
 
 const HomePage = () => {
   const { setSearchQuery } = useSearch();
+  const { user } = useAuth();
+  const { dispatch } = useCart();
+  const [isAuthModalOpen, setIsAuthModalOpen] = React.useState(false);
   const featuredProducts = products.filter(product => product.featured).slice(0, 4);
   const saleProducts = products.filter(product => product.onSale).slice(0, 4);
+
+  const handleAuthRequired = () => {
+    setIsAuthModalOpen(true);
+  };
+
+  const handleAuthSuccess = () => {
+    setIsAuthModalOpen(false);
+    // Add pending item to cart after successful login
+    dispatch({ type: 'ADD_PENDING_TO_CART' });
+  };
 
   const categories = [
     { name: 'Wheat&Rice', icon: '🌾', count: products.filter(p => p.category === 'Wheat&Rice').length },
@@ -144,7 +160,7 @@ const HomePage = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} onAuthRequired={handleAuthRequired} />
             ))}
           </div>
         </div>
@@ -163,7 +179,7 @@ const HomePage = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {saleProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} onAuthRequired={handleAuthRequired} />
             ))}
           </div>
           <div className="text-center mt-8">
@@ -178,6 +194,12 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Auth Modal */}
+      <AuthModal 
+        isOpen={isAuthModalOpen} 
+        onClose={() => setIsAuthModalOpen(false)}
+        onSuccess={handleAuthSuccess}
+      />
       {/* Newsletter */}
       <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
