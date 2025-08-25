@@ -1700,12 +1700,87 @@ export const products: Product[] = [
     ]
    },
    {   
-    id: 136,
+    id: 137,
     name: 'Penuts',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Premium Qality penuts',
+    inStock: true,
+    featured: true,
+      variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+   },
+   {   
+    id: 138,
+    name: 'Harbara Dal',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Dals',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+      variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+   },
+    {   
+    id: 139,
+    name: 'Sugar',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Dals',
+    description: 'High Qality Sugar',
+    inStock: true,
+    featured: true,
+      variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+   },
+   {   
+    id: 140,
+    name: 'Akha Masoor',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Dals',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+      variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+   },
+   {   
+    id: 141,
+    name: 'Dhane',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Dals',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+      variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+   },
+   {   
+    id: 142,
+    name: 'Matki',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Dals',
+    description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
       variants: [
