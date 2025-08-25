@@ -1682,7 +1682,7 @@ export const products: Product[] = [
     inStock: true,
     featured: true,
    }
-  //
+  //Dal
     {   
     id: 136,
     name: 'hi',
