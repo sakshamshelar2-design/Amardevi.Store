@@ -1230,6 +1230,51 @@ export const products: Product[] = [
       { id: '2-10kg', weight: '10 kg', price: 470 }
     ]
   },
+   {
+    id: 102,
+    name: 'Medimix',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 103,
+    name: 'Lux Pink',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 104,
+    name: 'Lux Blue',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
   
   
   
