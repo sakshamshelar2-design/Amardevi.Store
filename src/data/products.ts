@@ -1546,7 +1546,7 @@ export const products: Product[] = [
     ]
   },
    {
-    id: 111,
+    id: 123,
     name: 'Colgate Maxfresh',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
@@ -1562,19 +1562,137 @@ export const products: Product[] = [
   },
 
   //Snacks
-   {
-    id: 111,
-    name: 'Colgate Maxfresh',
+  {   
+    id: 124,
+    name: 'VijayLaxmi Green Farsan',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
-    category: 'Cleaning',
+    category: 'Snacks',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
    }
-  
-    
-    
+     {   
+    id: 125,
+    name: 'VijayLaxmi Blue Farsan',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+    {   
+    id: 126,
+    name: 'VijayLaxmi Dryfruit Farsan',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+  {   
+    id: 127,
+    name: 'VijayLaxmi Red Farsan',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+    {   
+    id: 128,
+    name: 'VijayLaxmi Blue Farsan',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+  {   
+    id: 129,
+    name: 'Apna Farsan',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+     {   
+    id: 130,
+    name: 'Apna Waffers',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+      {   
+    id: 131,
+    name: 'Apna Gathi Shev',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+  {   
+    id: 132,
+    name: 'Apan shev ',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+     {   
+    id: 133,
+    name: 'Haldiram Aalu bhujiya',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+     {   
+    id: 134,
+    name: 'Bhudhani Waffers',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+      {   
+    id: 135,
+    name: 'Soya sticks',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
+  //
+    {   
+    id: 136,
+    name: '',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Snacks',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+   }
   
   
   
