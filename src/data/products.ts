@@ -1037,7 +1037,7 @@ export const products: Product[] = [
   },
    {
     id: 89,
-    name: 'Tide',
+    name: 'Tide Bar',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
@@ -1155,6 +1155,7 @@ export const products: Product[] = [
       { id: '2-10kg', weight: '10 kg', price: 470 }
     ]
   },
+  
   
   
   
