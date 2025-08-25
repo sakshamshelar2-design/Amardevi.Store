@@ -1572,6 +1572,7 @@ export const products: Product[] = [
     inStock: true,
     featured: true,
    }
+  
    {   
     id: 125,
     name: 'VijayLaxmi Blue Farsan',
@@ -1580,7 +1581,7 @@ export const products: Product[] = [
     category: 'Snacks',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
-    featured: true
+    featured: true,
    }
     {   
     id: 126,
