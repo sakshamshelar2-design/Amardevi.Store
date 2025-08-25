@@ -1572,7 +1572,7 @@ export const products: Product[] = [
     inStock: true,
     featured: true,
    }
-     {   
+   {   
     id: 125,
     name: 'VijayLaxmi Blue Farsan',
     price: 450,
