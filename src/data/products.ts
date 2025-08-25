@@ -297,7 +297,7 @@ export const products: Product[] = [
     inStock: true
   },
   
-  // Snacks (keeping existing)
+  // Sn (keeping existing)
   {
     id: 26,
     name: 'Mixed Nuts',
