@@ -5,10 +5,9 @@ import { useAuth } from '../context/AuthContext';
 interface AuthModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onSuccess?: () => void;
 }
 
-const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess }) => {
+const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
   const { signInWithGoogle } = useAuth();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
@@ -21,9 +20,6 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess }) => 
     try {
       await signInWithGoogle();
       onClose();
-      if (onSuccess) {
-        onSuccess();
-      }
     } catch (error) {
       if (error.code === 'auth/popup-blocked') {
         setError('Pop-up blocked by browser. Please allow pop-ups for this site and try again.');
