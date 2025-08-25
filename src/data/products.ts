@@ -1336,7 +1336,7 @@ export const products: Product[] = [
     ]
   },
    {
-    id: 106,
+    id: 109,
     name: 'Rexona',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
@@ -1350,6 +1350,204 @@ export const products: Product[] = [
       { id: '2-10kg', weight: '10 kg', price: 470 }
     ]
   },
+   {
+    id: 110,
+    name: 'Colgate Toothpaste',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 111,
+    name: 'Colgate Maxfresh Red',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 112,
+    name: 'Colgate Maxfresh Blue',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 113,
+    name: 'Colgate Herbal',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 114,
+    name: 'Closeup',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 115,
+    name: 'Dabur Meswak',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 116,
+    name: 'Pepsodent',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 117,
+    name: 'Patanjali Dant kanti',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 118,
+    name: 'Sensodyne',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 119,
+    name: 'Dabar Red,Babool',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 120,
+    name: 'Colgate Maxfresh',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+ {
+    id: 121,
+    name: 'Colgate Toothbrush',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+   {
+    id: 122,
+    name: 'OralB Toothbrush',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cleaning',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+     variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
+  },
+  
+  
+    
     
   
   
