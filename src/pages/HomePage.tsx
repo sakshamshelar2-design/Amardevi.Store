@@ -85,21 +85,33 @@ const HomePage = () => {
                 <Truck className="h-8 w-8 text-emerald-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Free Delivery</h3>
-              <p className="text-gray-600">Free home delivery on orders above ₹400 • Delivered in 5-10 hours</p>
+              <p className="text-gray-600">
+                <span className="font-semibold text-emerald-600">Free delivery</span> on orders above ₹400
+                <br />
+                <span className="text-sm">⚡ Delivered in 5-10 hours</span>
+              </p>
             </div>
             <div className="text-center group">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 transition-colors duration-200">
                 <Shield className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Quality Assured</h3>
-              <p className="text-gray-600">100% fresh and quality guaranteed products</p>
+              <p className="text-gray-600">
+                <span className="font-semibold text-blue-600">100% fresh</span> and quality guaranteed
+                <br />
+                <span className="text-sm">✅ Money-back guarantee</span>
+              </p>
             </div>
             <div className="text-center group">
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-colors duration-200">
                 <Clock className="h-8 w-8 text-orange-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Quick Delivery</h3>
-              <p className="text-gray-600">Fast delivery in 5-10 hours</p>
+              <p className="text-gray-600">
+                <span className="font-semibold text-orange-600">Lightning fast</span> delivery
+                <br />
+                <span className="text-sm">🕐 Same-day delivery available</span>
+              </p>
             </div>
           </div>
         </div>
@@ -120,13 +132,13 @@ const HomePage = () => {
                 key={category.name}
                 to={`/products?category=${encodeURIComponent(category.name)}`}
                 onClick={() => setSearchQuery('')}
-                className="bg-white p-6 rounded-xl text-center hover:shadow-md transition-all duration-300 group"
+                className="bg-white p-6 rounded-xl text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group border border-gray-100"
               >
                 <div className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-200">
                   {category.icon}
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-1">{category.name}</h3>
-                <p className="text-sm text-gray-600">{category.count} items</p>
+                <p className="text-sm text-emerald-600 font-medium">{category.count} items</p>
               </Link>
             ))}
           </div>
@@ -140,7 +152,7 @@ const HomePage = () => {
             <h2 className="text-3xl font-bold text-gray-900">Featured Products</h2>
             <Link
               to="/products"
-              className="text-emerald-600 hover:text-emerald-700 font-semibold flex items-center group"
+              className="bg-white text-emerald-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 hover:shadow-lg transition-all duration-200 flex items-center justify-center group text-lg"
             >
               View All
               <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
@@ -173,9 +185,9 @@ const HomePage = () => {
           <div className="text-center mt-8">
             <Link
               to="/products?filter=sale"
-              className="bg-red-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-600 transition-colors duration-200 inline-flex items-center"
+              className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-emerald-600 transition-all duration-200 hover:shadow-lg text-lg"
             >
-              View All Offers
+              🎉 View Offers
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>

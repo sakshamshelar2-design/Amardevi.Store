@@ -20,6 +20,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const handleAddToCart = () => {
+    // Add visual feedback
+    const button = document.activeElement;
+    if (button) {
+      button.classList.add('animate-pulse');
+      setTimeout(() => button.classList.remove('animate-pulse'), 300);
+    }
+    
     const productToAdd = {
       ...product,
       price: selectedVariant.price,
@@ -163,7 +170,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <button
           onClick={handleAddToCart}
           disabled={!product.inStock}
-          className="w-full bg-emerald-500 text-white py-2 px-4 rounded-lg hover:bg-emerald-600 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors duration-200 flex items-center justify-center space-x-2"
+          className="w-full bg-emerald-500 text-white py-3 px-4 rounded-lg hover:bg-emerald-600 hover:shadow-md disabled:bg-gray-300 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center space-x-2 font-medium"
         >
           <ShoppingCart className="h-4 w-4" />
           <span>{product.inStock ? 'Add to Cart' : 'Out of Stock'}</span>

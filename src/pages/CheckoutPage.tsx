@@ -436,10 +436,13 @@ const CheckoutPage = () => {
 
               <div className="mt-4 p-3 bg-green-50 rounded-lg">
                 <p className="text-sm text-green-800 font-medium">
-                  📦 Delivery: 5-10 hours
+                  🚚 Fast Delivery: 5-10 hours
                 </p>
                 <p className="text-xs text-green-700 mt-1">
-                  Your order will be delivered within 5-10 hours of confirmation
+                  📍 Your order will be delivered within 5-10 hours of confirmation
+                </p>
+                <p className="text-xs text-green-700 mt-1">
+                  📞 We'll call you before delivery
                 </p>
               </div>
             </div>

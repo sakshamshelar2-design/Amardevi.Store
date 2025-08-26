@@ -177,7 +177,7 @@ const CartPage = () => {
               )}
 
               <p className="text-xs text-gray-500 mt-4 text-center">
-                Delivery in 5-10 hours • Secure checkout powered by SSL encryption
+                🚚 Delivery in 5-10 hours • 🔒 Secure checkout • 📞 24/7 Support
               </p>
             </div>
           </div>

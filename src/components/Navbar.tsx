@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
 
           {/* Search Bar */}
-          <div className="hidden md:flex items-center">
+          <div className="hidden md:flex items-center relative">
             <form onSubmit={handleSearch} className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
               <input
@@ -79,10 +79,19 @@ const Navbar = () => {
                 placeholder="Search products..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent w-64"
+                className="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent w-64 transition-all duration-200"
               />
               <button type="submit" className="sr-only">Search</button>
             </form>
+            {searchQuery && (
+              <div className="absolute top-full left-0 right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg z-50 max-h-64 overflow-y-auto">
+                <div className="p-2">
+                  <p className="text-sm text-gray-600 px-3 py-2">
+                    Press Enter to search for "{searchQuery}"
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Cart */}
@@ -105,11 +114,11 @@ const Navbar = () => {
             {/* Cart */}
             <Link
               to="/cart"
-              className="relative p-2 text-gray-700 hover:text-emerald-600 transition-colors duration-200"
+              className="relative p-2 text-gray-700 hover:text-emerald-600 transition-colors duration-200 hover:bg-gray-100 rounded-lg"
             >
               <ShoppingCart className="h-6 w-6" />
               {itemCount > 0 && (
-                <span className="absolute -top-1 -right-1 bg-emerald-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center animate-pulse">
+                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center animate-bounce font-bold">
                   {itemCount}
                 </span>
               )}

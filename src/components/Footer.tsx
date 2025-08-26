@@ -44,6 +44,8 @@ const Footer = () => {
               <li><a href="/products?filter=sale" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">Offers</a></li>
               <li><a href="/about" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">About Us</a></li>
               <li><a href="/contact" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">Contact</a></li>
+              <li><a href="/products?category=Wheat%26Rice" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">Wheat & Rice</a></li>
+              <li><a href="/products?category=Dals" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">Dals & Pulses</a></li>
             </ul>
           </div>
 

@@ -11,6 +11,7 @@ import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
                 </Routes>
               </main>
               <Footer />
+              <BackToTop />
             </div>
           </Router>
         </CartProvider>
