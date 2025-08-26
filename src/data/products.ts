@@ -1928,7 +1928,7 @@ export const products: Product[] = [
     },
       {   
     id: 153,
-    name: 'Sunny Sunflower',
+    name: 'Sunny Sunflower Oil',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
@@ -1943,7 +1943,7 @@ export const products: Product[] = [
       },
       {   
     id: 154,
-    name: 'Sunny Soyabean',
+    name: 'Sunny Soyabean Oil',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
@@ -1957,7 +1957,7 @@ export const products: Product[] = [
     ]
       },
     {   
-    id: 153,
+    id: 155,
     name: 'Sunny Groundnut Oil',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
@@ -1965,12 +1965,21 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-        variants: [
-      { id: '2-1kg', weight: '1 kg', price: 52 },
-      { id: '2-5kg', weight: '5 kg', price: 245 },
-      { id: '2-10kg', weight: '10 kg', price: 470 }
-    ]
-    },     
+    }, 
+   {   
+    id: 156,
+    name: 'Til Oil (Devaycha Tel)',
+    price: 450,
+    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    category: 'Kitchen',
+    description: 'Aromatic coffee beans - 500g',
+    inStock: true,
+    featured: true,
+    }, 
+  
+  
+  
+  
   
   
   
