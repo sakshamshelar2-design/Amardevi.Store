@@ -1,5 +1,7 @@
 import { Product } from '../types';
 
+import { festiveProducts } from './festiveProducts';
+
 export const products: Product[] = [
   // Wheat&Rice
   {
@@ -1993,7 +1995,7 @@ export const products: Product[] = [
   
   
   
-];
+].concat(festiveProducts.map(product => ({ ...product, featured: true })));
 
 export const categories = [
   'All',

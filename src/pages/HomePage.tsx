@@ -4,6 +4,7 @@ import { ArrowRight, Truck, Shield, Clock, Star, Tag } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
 import { products } from '../data/products';
 import { useSearch } from '../context/SearchContext';
+import GaneshChaturthi from '../components/GaneshChaturthi';
 
 const HomePage = () => {
   const { setSearchQuery } = useSearch();
@@ -103,6 +104,9 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      {/* Ganesh Chaturthi Special Section */}
+      <GaneshChaturthi />
 
       {/* Categories Section */}
       <section className="py-16 bg-gray-50">
