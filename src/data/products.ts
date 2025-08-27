@@ -1158,7 +1158,7 @@ export const products: Product[] = [
       { id: '2-10kg', weight: '10 kg', price: 470 }
     ]
   },
-   {
+ /*  {
     id: 97,
     name: 'Rin Detergent',
     price: 450,
@@ -1172,12 +1172,12 @@ export const products: Product[] = [
       { id: '2-5kg', weight: '5 kg', price: 245 },
       { id: '2-10kg', weight: '10 kg', price: 470 }
     ]
-  },
+  },*/
    {
     id: 98,
     name: 'Santoor',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://img.thecdn.in/394829/SKU-0310_0-1726403613340.jpg?width=600&format=webp?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
