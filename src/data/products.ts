@@ -518,7 +518,7 @@ export const products: Product[] = [
     name: 'Parle 20-20',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://storage.googleapis.com/shy-pub/408135/parle-20-20-rs-5-1731910085749_SKU-1559_0.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
