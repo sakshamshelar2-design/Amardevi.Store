@@ -786,7 +786,7 @@ export const products: Product[] = [
     name: 'Biryani Masala Suhana  ',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://rukminim1.flixcart.com/image/300/300/xif0q/spice-masala/d/d/8/200-biryani-masala-100g-box-pack-of-2-pouch-2-suhana-powder-original-imaghgx2qdkj5gym.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
