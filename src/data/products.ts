@@ -1297,7 +1297,7 @@ export const products: Product[] = [
     id: 106,
     name: 'Cinthol',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://nmedicines.in/media/catalog/product/cache/11/image/586x/040ec09b1e35df139433887a97daa66f/7/1/71z_ta17nvl._sx355_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
