@@ -1537,7 +1537,7 @@ export const products: Product[] = [
     id: 122,
     name: 'OralB Toothbrush',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.quickpantry.in/cdn/shop/products/oral-b-shiny-clean-toothbrush-1-pc-quick-pantry.jpg?v=1710538852?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
