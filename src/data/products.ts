@@ -621,7 +621,7 @@ export const products: Product[] = [
     name: 'Shahi Paneer Masala Everest',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://file.hstatic.net/1000312435/file/1_3c2371bbd8754092bb6ea5fdccb7b100_grande.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
