@@ -1177,7 +1177,7 @@ export const products: Product[] = [
     id: 98,
     name: 'Santoor',
     price: 450,
-    image: 'https://img.thecdn.in/394829/SKU-0310_0-1726403613340.jpg?width=600&format=webp?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://rukminim2.flixcart.com/image/704/844/xif0q/soap/s/7/8/4-600-skin-moisturizing-sandal-turmeric-bathing-bar-soap-100gx2-original-imagxuysxhyzgp5z.jpeg?q=90&crop=false?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
