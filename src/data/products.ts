@@ -726,7 +726,7 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-  {
+ /* {
     id: 63,
     name: 'Biryani Masala Lucky  ',
     price: 145,
@@ -736,8 +736,8 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  },
-  {
+  },*/
+  /*{
     id: 64,
     name: 'Chicken Masala Everest   ',
     price: 145,
@@ -747,7 +747,7 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  },
+  },*/
   {
     id: 65,
     name: 'Pani puri Masala ',
@@ -803,7 +803,7 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-   {
+  /* {
     id: 70,
     name: 'Kashmiri lal Masala   ',
     price: 145,
@@ -813,7 +813,7 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  },
+  },*/
    {
     id: 71,
     name: 'Garam Masala Everest  ',
@@ -902,7 +902,7 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-   {
+   /*{
     id: 79,
     name: 'Baking Powder',
     price: 145,
@@ -912,8 +912,8 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  },
-  {
+  },*/
+ /* {
     id: 80,
     name: 'Matter Paneer Masala ',
     price: 145,
@@ -923,7 +923,7 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  },
+  },*/
    {
     id: 81,
     name: 'Magic Masala',
