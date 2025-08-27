@@ -720,7 +720,7 @@ export const products: Product[] = [
     name: 'Mutton Masala Suhana   ',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://suhana.com/cdn/shop/files/SUH-MM-50-box-1-e1681798292942.jpg?v=1707833881?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
