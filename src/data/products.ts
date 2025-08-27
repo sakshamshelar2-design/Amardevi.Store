@@ -1117,7 +1117,7 @@ export const products: Product[] = [
     id: 94,
     name: 'Wheel Powder',
     price: 450,
-    image: 'https://www.bbassets.com/media/uploads/p/l/40077312_4-wheel-detergent-powder-green-lemon-jasmine.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/51Z7+v1MrUL._SY300_SX300_QL70_FMwebp_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
