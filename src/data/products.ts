@@ -676,7 +676,7 @@ export const products: Product[] = [
     name: 'Chicken Masala Everest   ',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://img.thecdn.in/394829/SKU-0259_0-1726395569076.jpg?width=600&format=webp?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
