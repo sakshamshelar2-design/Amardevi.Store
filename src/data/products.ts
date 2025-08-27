@@ -1963,7 +1963,7 @@ export const products: Product[] = [
     id: 155,
     name: 'Sunny Groundnut Oil',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://rukminim2.flixcart.com/image/704/844/xif0q/edible-oil/u/o/v/-original-imahdwzymm3jrghf.jpeg?q=90&crop=false?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
