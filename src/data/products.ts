@@ -764,7 +764,7 @@ export const products: Product[] = [
     name: 'Kasturi Mathi',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/S/aplus-media-library-service-media/8e4b4f80-14d8-416a-938c-db14aa84dc4a.__CR0,0,1024,1024_PT0_SX300_V1___.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
