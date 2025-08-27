@@ -70,7 +70,7 @@ export const products: Product[] = [
     id: 5,
     name: 'Basmati Rice Premium',
     price: 180,
-    image: 'https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2025/8/534993827/HY/JP/NS/26757244/kushati-mini-mogra-basmati-rice-500x500.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Wheat&Rice',
     description: 'Premium quality Basmati rice - 1kg',
     inStock: true,
