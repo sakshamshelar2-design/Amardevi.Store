@@ -1902,7 +1902,7 @@ export const products: Product[] = [
     id: 150,
     name: 'Manuke(kishmish)',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://dukaan.b-cdn.net/700x700/webp/upload_file_service/0512886e-729d-47c8-8503-65abf6dc3de1/1676702265909.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dry Fruits',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
