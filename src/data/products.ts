@@ -1357,7 +1357,7 @@ export const products: Product[] = [
     id: 110,
     name: 'Colgate Toothpaste',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.quickpantry.in/cdn/shop/files/Colgate_Strong_Teeth_Toothpaste_300_g_Quick_Pantry.jpg?v=1731146068&width=1214?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
