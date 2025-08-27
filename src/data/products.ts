@@ -1796,7 +1796,7 @@ export const products: Product[] = [
     id: 143,
     name: 'Akha Moong',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://images.jdmagicbox.com/quickquotes/images_main/whole-green-moong-dal-500-gm-2228324596-m8c3nlfa.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
