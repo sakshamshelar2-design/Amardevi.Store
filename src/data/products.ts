@@ -1192,7 +1192,7 @@ export const products: Product[] = [
     id: 99,
     name: 'Moti Sandal',
     price: 450,
-    image: 'https://image1.jdomni.in/product/04022024/57/84/F9/5224E5BFB93651BCAD63F4B618_1707050418611.webp?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.dawaiwala.com/pharmacy/img/60670939b4e46.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
