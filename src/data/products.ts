@@ -1781,7 +1781,7 @@ export const products: Product[] = [
     id: 142,
     name: 'Matki',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://image1.jdomni.in/product/13042024/01/15/77/2D713D293498EB8F87FC54B614_1713018477676.jpg?fit=around|500:500?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
