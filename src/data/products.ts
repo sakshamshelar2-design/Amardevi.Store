@@ -1042,7 +1042,7 @@ export const products: Product[] = [
     id: 89,
     name: 'Tide Bar',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://img.cdnx.in/340140/Tide-White-Bar-1729321288608.webp?width=600&format=webp?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
