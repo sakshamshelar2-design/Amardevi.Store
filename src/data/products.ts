@@ -1721,7 +1721,7 @@ export const products: Product[] = [
     id: 138,
     name: 'Harbara Dal',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2024/9/449076072/DU/DU/PM/14349033/yellow-split-gram-dal-500x500.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
