@@ -1933,7 +1933,7 @@ export const products: Product[] = [
     id: 153,
     name: 'Sunny Sunflower Oil',
     price: 450,
-    image: 'https://www.bbassets.com/media/uploads/p/l/30003349_7-sunny-sunflower-oil-lite.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://rukminim2.flixcart.com/image/704/844/xif0q/edible-oil/w/2/x/-original-imahd86wdfuuqgyk.jpeg?q=90&crop=false?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
