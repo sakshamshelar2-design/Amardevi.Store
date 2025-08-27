@@ -1072,7 +1072,7 @@ export const products: Product[] = [
     id: 91,
     name: 'Surf Excel Bar',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://images.apollo247.in/pub/media/catalog/product/S/U/SUR0070_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
