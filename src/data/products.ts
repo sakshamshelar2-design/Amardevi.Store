@@ -893,10 +893,10 @@ export const products: Product[] = [
   },
    {
     id: 78,
-    name: ' Soda ',
+    name: 'Baking Soda ',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2022/6/BI/RN/LF/146004054/sodamasala-1613020539111.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
@@ -904,7 +904,7 @@ export const products: Product[] = [
   },
    {
     id: 79,
-    name: 'Baking Soda ',
+    name: 'Baking Powder',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
