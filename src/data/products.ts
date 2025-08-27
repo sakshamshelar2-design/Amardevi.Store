@@ -1342,7 +1342,7 @@ export const products: Product[] = [
     id: 109,
     name: 'Rexona',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://dayli.in/cdn/shop/files/51WN3QnDeAL.jpg?v=1731063853?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
