@@ -1736,7 +1736,7 @@ export const products: Product[] = [
     id: 139,
     name: 'Sugar',
     price: 450,
-    image: 'https://www.jiomart.com/images/product/original/490176160/loose-sugar-m-1-kg-product-images-o490176160-p490176160-0-202503191621.jpg?im=Resize=(420,420)?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://foodbeverageasia.com/wp-content/uploads/2022/03/resized_Sugar-Bag.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'High Qality Sugar',
     inStock: true,
