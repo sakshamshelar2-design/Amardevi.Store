@@ -1887,7 +1887,7 @@ export const products: Product[] = [
     id: 149,
     name: 'Black Manuke',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://image1.jdomni.in/product/13042024/C1/3F/22/144D9268CC05CC8FF760B93F10_1712996066657.webp?fit=around|500:500?auto=compress&cs=tinysrgb&w=400',
     category: 'Dry Fruits',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
