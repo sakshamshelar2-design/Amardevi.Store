@@ -1706,7 +1706,7 @@ export const products: Product[] = [
     id: 137,
     name: 'Penuts',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://images.timesnownews.com/thumb/msid-95253806,thumbsize-40916,width-1280,height-720,resizemode-75/95253806.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Premium Qality penuts',
     inStock: true,
