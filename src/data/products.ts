@@ -997,7 +997,7 @@ export const products: Product[] = [
     id: 86,
     name: 'Exo Bar',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.jyothylabs.com/wp-content/uploads/2023/05/Exo-Bar-2023-02-1.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
