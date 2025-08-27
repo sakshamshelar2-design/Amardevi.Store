@@ -1012,7 +1012,7 @@ export const products: Product[] = [
     id: 87,
     name: 'Patanjali Super Bar',
     price: 450,
-    image: 'https://www.bbassets.com/media/uploads/p/l/40016330_8-patanjali-super-dishwash-bar.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://patanjalinepal.org/wp-content/uploads/2022/02/Super-Dish-150g.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
