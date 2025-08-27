@@ -1402,7 +1402,7 @@ export const products: Product[] = [
     id: 113,
     name: 'Colgate Herbal',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgM62_wcgkglrUP-L_qLSMe833g7687FN0AQ&s?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
