@@ -599,7 +599,7 @@ export const products: Product[] = [
     name: 'Dhana Powder',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://assets.hyperpure.com/data/images/products/026b0092671ed0a06fc06a0b61a4caf2.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
