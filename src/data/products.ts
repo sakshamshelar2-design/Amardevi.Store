@@ -1222,7 +1222,7 @@ export const products: Product[] = [
     id: 101,
     name: 'Dove',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://static.wixstatic.com/media/6116de_59fb9393806c4c9eb8f5782aa469f0ae~mv2.jpg/v1/fill/w_480,h_322,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6116de_59fb9393806c4c9eb8f5782aa469f0ae~mv2.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
