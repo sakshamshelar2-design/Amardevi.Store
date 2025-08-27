@@ -1117,7 +1117,7 @@ export const products: Product[] = [
     id: 94,
     name: 'Wheel Powder',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.bbassets.com/media/uploads/p/l/40077312_4-wheel-detergent-powder-green-lemon-jasmine.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
