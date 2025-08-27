@@ -1812,7 +1812,7 @@ export const products: Product[] = [
     id: 144,
     name: 'Badam',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i0.wp.com/rqn.com.au/wp-content/uploads/2016/12/Salted-Roasted-Australian-Almonds-compress.jpg?fit=600%2C600&ssl=1?auto=compress&cs=tinysrgb&w=400',
     category: 'Dry Fruits',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
