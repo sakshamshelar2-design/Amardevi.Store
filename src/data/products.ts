@@ -852,7 +852,7 @@ export const products: Product[] = [
     name: 'Egg Curry Masala ',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://cdn.grofers.com/da/cms-assets/cms/product/0403d492-6e67-4d04-a624-982558e59694.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
