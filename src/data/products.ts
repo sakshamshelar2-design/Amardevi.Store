@@ -1492,7 +1492,7 @@ export const products: Product[] = [
     id: 119,
     name: 'Dabar Red,Babool',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://tiimg.tistatic.com/fp/1/008/333/100-grams-provide-oral-complete-care-mint-and-clove-flavor-regular-toothpaste--710.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
