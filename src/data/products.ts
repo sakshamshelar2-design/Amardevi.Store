@@ -967,7 +967,7 @@ export const products: Product[] = [
     id: 84,
     name: 'Sargam Bar',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.quickpantry.in/cdn/shop/products/saragm-plus-detergent-bar-200-g-quick-pantry.jpg?v=1710538674?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
