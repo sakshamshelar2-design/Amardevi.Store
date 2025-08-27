@@ -554,7 +554,7 @@ export const products: Product[] = [
     name: 'Kanda Lasun Masala',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/41V-dhKC4eL._SY300_SX300_QL70_FMwebp_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
@@ -585,7 +585,7 @@ export const products: Product[] = [
   }, 
    {
     id: 50,
-    name: 'Badgi Mirchi Powder',
+    name: 'Bedgi Mirchi Powder',
     price: 145,
     originalPrice: 165,
     image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
