@@ -1282,7 +1282,7 @@ export const products: Product[] = [
     id: 105,
     name: 'Lux White',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://media.naheed.pk/catalog/product/cache/2f2d0cb0c5f92580479e8350be94f387/1/1/1198671-uni-rpl-1.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
