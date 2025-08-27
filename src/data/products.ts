@@ -1237,7 +1237,7 @@ export const products: Product[] = [
     id: 102,
     name: 'Medimix',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://dayli.in/cdn/shop/files/Shop-Medimix-18-Herbs-Soap-Online-_-Ayurvedic-Soap-_-Bathing-Soap-edited_3_1.webp?v=1755888425&width=540?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
