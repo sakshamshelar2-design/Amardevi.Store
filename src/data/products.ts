@@ -819,7 +819,7 @@ export const products: Product[] = [
     name: 'Garam Masala Everest  ',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.quickpantry.in/cdn/shop/products/everest-garam-masala-50-g-quick-pantry-1.jpg?v=1710537974?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
