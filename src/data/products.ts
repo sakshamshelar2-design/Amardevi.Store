@@ -1660,7 +1660,7 @@ export const products: Product[] = [
     id: 133,
     name: 'Haldiram Aalu bhujiya',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://shopdesi.shop/cdn/shop/files/IMG_3698.webp?v=1733517525?auto=compress&cs=tinysrgb&w=400',
     category: 'Snacks',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
