@@ -1503,7 +1503,7 @@ export const products: Product[] = [
       { id: '2-10kg', weight: '10 kg', price: 470 }
     ]
   },
-   {
+ /*  {
     id: 120,
     name: 'Colgate Maxfresh',
     price: 450,
@@ -1517,7 +1517,7 @@ export const products: Product[] = [
       { id: '2-5kg', weight: '5 kg', price: 245 },
       { id: '2-10kg', weight: '10 kg', price: 470 }
     ]
-  },
+  },*/
  {
     id: 121,
     name: 'Colgate Toothbrush',
