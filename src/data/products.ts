@@ -935,7 +935,7 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-   {
+  /* {
     id: 82,
     name: 'peri peri Masala ',
     price: 145,
@@ -945,7 +945,7 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  },
+  },*/
 
   // Cleaning 
    {
