@@ -1417,7 +1417,7 @@ export const products: Product[] = [
     id: 114,
     name: 'Closeup',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.quickpantry.in/cdn/shop/files/Close_Up_Everfresh_Anti-Germ_Gel_Toothpaste_-_Red_Hot.jpg?v=1738006096?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
