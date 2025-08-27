@@ -727,17 +727,6 @@ export const products: Product[] = [
     onSale: true
   },
   {
-    id: 63,
-    name: 'Biryani Masala Lucky  ',
-    price: 145,
-    originalPrice: 165,
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9JWn-mq8Y9OH28bh09aur-0eAxEwA6emXqw&s?auto=compress&cs=tinysrgb&w=400',
-    category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
-    inStock: true,
-    onSale: true
-  },
-  {
     id: 64,
     name: 'Chicken Masala Everest   ',
     price: 145,
@@ -803,17 +792,7 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-   {
-    id: 70,
-    name: 'Kashmiri lal Masala   ',
-    price: 145,
-    originalPrice: 165,
-    image: 'https://m.media-amazon.com/images/I/810TfyMSEFL._SX679_.jpg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
-    inStock: true,
-    onSale: true
-  },
+
    {
     id: 71,
     name: 'Garam Masala Everest  ',
@@ -902,7 +881,7 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-   {
+  /* {
     id: 79,
     name: 'Baking Powder',
     price: 145,
@@ -922,7 +901,7 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  },
+  },*/
    {
     id: 81,
     name: 'Magic Masala',
@@ -934,17 +913,17 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-   {
-    id: 82,
-    name: 'peri peri Masala ',
-    price: 145,
-    originalPrice: 165,
-    image: 'https://www.jiomart.com/images/product/original/491598655/smith-jones-peri-peri-masala-72-g-product-images-o491598655-p491598655-0-202203170223.jpg?im=Resize=(1000,1000)?auto=compress&cs=tinysrgb&w=400',
-    category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
-    inStock: true,
-    onSale: true
-  },
+  //  {
+  //   id: 82,
+  //   name: 'peri peri Masala ',
+  //   price: 145,
+  //   originalPrice: 165,
+  //   image: 'https://www.jiomart.com/images/product/original/491598655/smith-jones-peri-peri-masala-72-g-product-images-o491598655-p491598655-0-202203170223.jpg?im=Resize=(1000,1000)?auto=compress&cs=tinysrgb&w=400',
+  //   category: 'Masala',
+  //   description: 'Pure cooking oil - 1 liter',
+  //   inStock: true,
+  //   onSale: true
+  // },
 
   // Cleaning 
    {
