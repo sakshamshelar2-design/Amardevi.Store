@@ -913,18 +913,7 @@ export const products: Product[] = [
     inStock: true,
     onSale: true
   },
-  //  {
-  //   id: 82,
-  //   name: 'peri peri Masala ',
-  //   price: 145,
-  //   originalPrice: 165,
-  //   image: 'https://www.jiomart.com/images/product/original/491598655/smith-jones-peri-peri-masala-72-g-product-images-o491598655-p491598655-0-202203170223.jpg?im=Resize=(1000,1000)?auto=compress&cs=tinysrgb&w=400',
-  //   category: 'Masala',
-  //   description: 'Pure cooking oil - 1 liter',
-  //   inStock: true,
-  //   onSale: true
-  // },
-
+/
   // Cleaning 
    {
     id: 83,
