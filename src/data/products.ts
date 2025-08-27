@@ -775,7 +775,7 @@ export const products: Product[] = [
     name: 'Biryani Masala Everest   ',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/71wK9rUJQCL._UF894,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
