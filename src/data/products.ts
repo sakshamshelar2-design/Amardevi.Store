@@ -1205,9 +1205,9 @@ export const products: Product[] = [
   },
    {
     id: 100,
-    name: 'Life Boy',
+    name: 'Lifebuoy',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://driftbasket.com/wp-content/uploads/2018/10/lifebuoy-soap.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
