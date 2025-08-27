@@ -1057,7 +1057,8 @@ export const products: Product[] = [
     id: 90,
     name: 'Vanish',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.vanish.co.in/static/feff9737370a5ab7a619d3d230801b5d/83d1b/vanish-oxi-action-liquid.png
+  ?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
