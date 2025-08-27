@@ -1132,7 +1132,7 @@ export const products: Product[] = [
     id: 95,
     name: 'Nirma Powder',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/51r4BNYEEiL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
