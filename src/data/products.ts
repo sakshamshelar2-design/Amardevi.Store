@@ -882,7 +882,7 @@ export const products: Product[] = [
   },
    {
     id: 77,
-    name: 'Matter Paneer Masala ',
+    name: 'Matar Paneer Masala ',
     price: 145,
     originalPrice: 165,
     image: 'https://suhana.com/cdn/shop/files/SM-MP-1-1.jpg?v=1707833539?auto=compress&cs=tinysrgb&w=400',
