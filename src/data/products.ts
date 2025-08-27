@@ -1751,7 +1751,7 @@ export const products: Product[] = [
     id: 140,
     name: 'Akha Masoor',
     price: 450,
-    image: 'https://img.thecdn.in/27262/1621162525894_SKU-0273_0.jpeg?width=600&format=webp?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://images.slurrp.com/webstories/wp-content/uploads/2023/07/14124349/shutterstock_2208744843.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dals',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
