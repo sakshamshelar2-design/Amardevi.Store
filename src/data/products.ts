@@ -1580,7 +1580,7 @@ export const products: Product[] = [
     id: 125,
     name: 'VijayLaxmi Blue Farsan',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://images-eu.ssl-images-amazon.com/images/I/41V8TeolnnL._AC_UL600_SR600,600_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Snacks',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
