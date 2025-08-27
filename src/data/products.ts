@@ -874,7 +874,7 @@ export const products: Product[] = [
     name: 'Paneer Tikka Masala ',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://suhana.com/cdn/shop/files/SM-PT-1-preview_grande.png?v=1707833532?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
