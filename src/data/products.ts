@@ -863,7 +863,7 @@ export const products: Product[] = [
     name: 'Paneer Butter Masala  ',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/81cA6i92hIL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
