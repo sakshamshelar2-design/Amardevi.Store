@@ -1042,7 +1042,7 @@ export const products: Product[] = [
     id: 89,
     name: 'Tide Bar',
     price: 450,
-    image: 'https://img.cdnx.in/340140/Tide-White-Bar-1729321288608.webp?width=600&format=webp?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://eangadi.in/image/cache/catalog/Seller_10/eAngadi-LaundryandDetergents-TIDE-Detergent-BAR-350x350.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
