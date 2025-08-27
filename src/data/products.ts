@@ -588,7 +588,7 @@ export const products: Product[] = [
     name: 'Bedgi Mirchi Powder',
     price: 145,
     originalPrice: 165,
-    image: 'https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://suhana.com/cdn/shop/files/Byadgi_Chilli_Regular.jpg?v=1711084714?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
