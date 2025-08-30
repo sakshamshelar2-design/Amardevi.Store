@@ -1988,6 +1988,11 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
+       variants: [
+      { id: '2-1kg', weight: '1 kg', price: 52 },
+      { id: '2-5kg', weight: '5 kg', price: 245 },
+      { id: '2-10kg', weight: '10 kg', price: 470 }
+    ]
     }, 
   
   
