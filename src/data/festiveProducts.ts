@@ -4,7 +4,7 @@ export const festiveProducts = [
     name: "Premium Modak Mix",
     price: 180,
     originalPrice: 220,
-    image: "https://images.pexels.com/photos/6210959/pexels-photo-6210959.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://images.pexels.com/photos/6210959/pexels-photo-621.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "Festive Sweets",
     description: "Traditional modak flour mix for making delicious modaks at home",
     inStock: true,
