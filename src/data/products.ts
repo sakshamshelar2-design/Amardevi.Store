@@ -7,7 +7,7 @@ export const products: Product[] = [
   {
     id: 1,
     name: 'Gold wheat',
-    price: 45,
+    price: 40,
     originalPrice: 55,
     image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Wheat&Rice',
@@ -16,9 +16,9 @@ export const products: Product[] = [
     featured: true,
     onSale: true,
     variants: [
-      { id: '1-1kg', weight: '1 kg', price: 45, originalPrice: 55, discount: 18 },
-      { id: '1-5kg', weight: '5 kg', price: 210, originalPrice: 250, discount: 16 },
-      { id: '1-10kg', weight: '10 kg', price: 400, originalPrice: 480, discount: 17 }
+      { id: '1-1kg', weight: '1 kg', price: 40, originalPrice: 55, discount: 15 },
+      { id: '1-5kg', weight: '5 kg', price: 200, originalPrice: 230, discount: 30 },
+      { id: '1-10kg', weight: '10 kg', price: 400, originalPrice: 450, discount: 50 }
     ]
   },
   {
