@@ -1606,7 +1606,7 @@ export const products: Product[] = [
     inStock: true,
     featured: true,
    },
-    {   
+   /* {   
     id: 128,
     name: 'VijayLaxmi yellow Farsan',
     price: 450,
@@ -1615,7 +1615,7 @@ export const products: Product[] = [
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
     featured: true,
-   },
+   },*/
   {   
     id: 129,
     name: 'Apna Farsan',
