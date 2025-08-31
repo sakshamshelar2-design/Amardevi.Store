@@ -2103,7 +2103,7 @@ export const products: Product[] = [
     id: 165,
     name: 'Wagh Bakri',
     price: 450,
-    image: 'https://gharstuff.sirv.com/WP_gharstuff.com/2020/10/Wagh-Bakri-Premium-Leaf-Tea-250g-2.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://rukminim2.flixcart.com/image/704/844/xif0q/tea/z/l/a/500-premium-leaf-1-pouch-regular-tea-waghbakri-leaves-original-imagrft2mageeez6.jpeg?q=90&crop=false?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
