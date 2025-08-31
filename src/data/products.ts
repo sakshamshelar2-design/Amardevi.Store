@@ -1973,7 +1973,7 @@ export const products: Product[] = [
     id: 156,
     name: 'Til Oil (Devacha Tel)',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFPwUSDnBrdv0bVykvvIS6JoRf6RN_B_tJNg&s?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
