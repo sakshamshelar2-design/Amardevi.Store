@@ -1948,7 +1948,7 @@ export const products: Product[] = [
     id: 154,
     name: 'Sunny Soyabean Oil',
     price: 450,
-    image: 'https://img.cdnx.in/390585/Sunnysoyabean1lit-1729063347908.png?width=600&format=webp?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://rukminim2.flixcart.com/image/704/844/xif0q/edible-oil/5/e/s/-original-imahdfz7g3fck54d.jpeg?q=90&crop=false?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
