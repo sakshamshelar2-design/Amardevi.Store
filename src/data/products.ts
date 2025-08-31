@@ -319,7 +319,7 @@ export const products: Product[] = [
     description: 'Crispy potato chips',
     inStock: true
   },
-  {
+ /* {
     id: 28,
     name: 'Parle Marie',
     price: 35,
@@ -329,14 +329,14 @@ export const products: Product[] = [
     description: 'Delicious cream biscuits',
     inStock: true,
     onSale: true
-  },
+  },*/
   
   // Tea&Coffee (keeping existing)
   {
     id: 29,
     name: 'Red Label',
     price: 125,
-    image: 'https://www.news-medical.net/image-handler/picture/2021/9/shutterstock_251566309.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/815gT66l2sL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
     description: 'Premium green tea - 100g',
     inStock: true,
