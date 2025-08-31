@@ -2073,7 +2073,7 @@ export const products: Product[] = [
     id: 163,
     name: 'Nescafe',
     price: 450,
-    image: 'https://gharstuff.sirv.com/WP_gharstuff.com/2020/04/Nescafe-Classic-Coffee-Pouch-6gm.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/71KO+B2m5wL._UF350,350_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
