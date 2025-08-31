@@ -2041,9 +2041,9 @@ export const products: Product[] = [
     },
    {   
     id: 161,
-    name: 'Samrat Suji ',
+    name: 'Samrat Suji',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.jiomart.com/images/product/original/491089355/samrat-rawa-sooji-500-g-product-images-o491089355-p590126611-0-202203170438.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
