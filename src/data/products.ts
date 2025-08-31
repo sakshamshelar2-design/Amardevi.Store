@@ -264,7 +264,7 @@ export const products: Product[] = [
     id: 22,
     name: 'Gokul Milk',
     price: 37,
-    image: 'https://www.bbassets.com/media/uploads/p/l/40141618_2-gokul-buffalo-milk.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmydukaan.io%2Fanand110%2Fproducts%2Fgokul-buffalo-milk&psig=AOvVaw3C8tGtaodlEKzf8MYX8pGo&ust=1756702036039000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMiV0YagtI8DFQAAAAAdAAAAABAL?auto=compress&cs=tinysrgb&w=400',
     category: 'Dairy',
     description: 'Fresh MIlk- 500ml',
     inStock: true
