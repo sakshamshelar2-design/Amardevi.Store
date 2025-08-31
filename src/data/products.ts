@@ -283,7 +283,7 @@ export const products: Product[] = [
     name: 'Butter',
     price: 85,
     originalPrice: 95,
-    image: 'https://images.pexels.com/photos/5946088/pexels-photo-5946088.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FAmul-Butter-Pasteurised-100g-Pack%2Fdp%2FB01IBTCZNG&psig=AOvVaw34Dy66wSKhuNSB3HjkuWD0&ust=1756702150718000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICO2r6gtI8DFQAAAAAdAAAAABAL?auto=compress&cs=tinysrgb&w=400',
     category: 'Dairy',
     description: 'Premium quality butter - 100g',
     inStock: true,
