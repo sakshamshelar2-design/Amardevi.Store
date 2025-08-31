@@ -1998,7 +1998,7 @@ export const products: Product[] = [
     id: 158,
     name: 'Heera Besan ',
     price: 450,
-    image: 'https://img.thecdn.in/408135/hira-besan-1731910069954_SKU-1523_0.png?format=webp?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://dukaan.b-cdn.net/700x700/webp/534347/e881a487-a330-4567-b615-08c42ad9c8ec.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
