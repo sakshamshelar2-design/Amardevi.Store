@@ -293,7 +293,7 @@ export const products: Product[] = [
     id: 25,
     name: 'Cheese cubes',
     price: 15,
-    image: 'https://images.pexels.com/photos/4109943/pexels-photo-4109943.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://driftbasket.com/wp-content/uploads/2019/04/amul-cheese-2.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dairy',
     description: 'Fresh cheese- 30g',
     inStock: true
