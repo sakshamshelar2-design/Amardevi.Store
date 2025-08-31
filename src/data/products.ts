@@ -379,7 +379,7 @@ export const products: Product[] = [
   },
   
   // Household (keeping existing)
-  {
+ /* {
     id: 32,
     name: 'Cooking Oil',
     price: 145,
@@ -389,7 +389,7 @@ export const products: Product[] = [
     description: 'Pure cooking oil - 1 liter',
     inStock: true,
     onSale: true
-  },
+  },*/
 
   // Biscuits (keeping existing)
   {
@@ -1971,7 +1971,7 @@ export const products: Product[] = [
     }, 
    {   
     id: 156,
-    name: 'Til Oil (Devaycha Tel)',
+    name: 'Til Oil (Devacha Tel)',
     price: 450,
     image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
@@ -1983,7 +1983,7 @@ export const products: Product[] = [
     id: 157,
     name: 'Samrat Besan ',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/511vTTmO7hL._AC_SY350_QL15_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
