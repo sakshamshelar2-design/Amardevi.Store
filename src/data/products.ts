@@ -1600,7 +1600,7 @@ export const products: Product[] = [
     id: 127,
     name: 'VijayLaxmi Red Farsan',
     price: 450,
-    image: 'https://m.media-amazon.com/images/I/41vsNGajE0L.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/41XYo-TZRFL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Snacks',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
