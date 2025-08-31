@@ -254,7 +254,7 @@ export const products: Product[] = [
     id: 21,
     name: 'Gokul Milk',
     price: 29,
-    image: 'https://www.google.com/imgres?q=gokul%20milk%20images&imgurl=https%3A%2F%2Fwww.bbassets.com%2Fmedia%2Fuploads%2Fp%2Fl%2F40141618_2-gokul-buffalo-milk.jpg&imgrefurl=https%3A%2F%2Fwww.bigbasket.com%2Fpd%2F40141618%2Fgokul-buffalo-milk-500-ml-pouch%2F&docid=SPQKPHL3KJAZrM&tbnid=UAFdd01D3_CexM&vet=12ahUKEwiboazj2p2PAxVuxTgGHYUOMZEQM3oECBgQAA..i&w=500&h=500&hcb=2&ved=2ahUKEwiboazj2p2PAxVuxTgGHYUOMZEQM3oECBgQAA',
+    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gokulmilk.coop%2Fproduct%2Fcow-milk-satvik-mumbai-and-pune-market&psig=AOvVaw3W5-I3ThTcoAng-sWH3Esb&ust=1756701906408000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLij_tGftI8DFQAAAAAdAAAAABAE?auto=compress&cs=tinysrgb&w=400',
     category: 'Dairy',
     description: 'Pure fresh milk - 500ml',
     inStock: true,
@@ -262,7 +262,7 @@ export const products: Product[] = [
   },
   {
     id: 22,
-    name: 'Gokul milk',
+    name: 'Gokul Milk',
     price: 37,
     image: 'https://www.bbassets.com/media/uploads/p/l/40141618_2-gokul-buffalo-milk.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Dairy',
