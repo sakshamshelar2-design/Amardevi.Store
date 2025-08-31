@@ -350,7 +350,7 @@ export const products: Product[] = [
     id: 30,
     name: 'Society',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://lh6.googleusercontent.com/proxy/4L4Da4C3e7WB8k9mJg5EXKXstMPxPb_5wOzpMj8BvK4hx-5iPhh21dY9c3WFwNcVK2Il8g0XhgkABcu3RXorS47ysXB9Cq9SeFae5oZrcYJ8L2g-p0OyWbfc9kpsWsrPsH5Iy6cSdDUi3g0?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
