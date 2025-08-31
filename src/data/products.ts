@@ -2088,7 +2088,7 @@ export const products: Product[] = [
     id: 164,
     name: 'Bru',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://cdn.shopaccino.com/edible-smart/products/700x700-542805_l.jpg?v=592?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
