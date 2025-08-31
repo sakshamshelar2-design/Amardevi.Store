@@ -299,8 +299,8 @@ export const products: Product[] = [
     inStock: true
   },
   
-  // Snanks (keeping existing)
-  {
+  // Snacks (keeping existing)
+ /* {
     id: 26,
     name: 'Mixed Nuts',
     price: 320,
@@ -309,12 +309,12 @@ export const products: Product[] = [
     description: 'Premium mixed nuts - 250g',
     inStock: true,
     featured: true
-  },
+  },*/
   {
     id: 27,
     name: 'Potato Chips',
     price: 25,
-    image: 'https://images.pexels.com/photos/4274468/pexels-photo-4274468.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bigbasket.com%2Fpd%2F70000872%2Fhaldirams-chips-classic-salted-del-60-g-pouch%2F&psig=AOvVaw3G5cRc34TFfVS_97qDR6zB&ust=1756702461346000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPiU09ShtI8DFQAAAAAdAAAAABAU?auto=compress&cs=tinysrgb&w=400',
     category: 'Snacks',
     description: 'Crispy potato chips',
     inStock: true
