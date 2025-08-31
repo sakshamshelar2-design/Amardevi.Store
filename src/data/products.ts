@@ -1983,7 +1983,7 @@ export const products: Product[] = [
     id: 157,
     name: 'Samrat Besan ',
     price: 450,
-    image: 'https://m.media-amazon.com/images/I/511vTTmO7hL._AC_SY350_QL15_.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://images.meesho.com/images/products/448343143/99m0g_512.webp?width=512?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
