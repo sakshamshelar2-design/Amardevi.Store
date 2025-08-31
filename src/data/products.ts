@@ -2028,7 +2028,7 @@ export const products: Product[] = [
     id: 160,
     name: 'Samrat Rava ',
     price: 450,
-    image: 'https://m.media-amazon.com/images/I/61EFHFnPiIL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://cdn.dotpe.in/longtail/store-items/8272836/YbxBPzZt.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
