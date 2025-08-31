@@ -2148,7 +2148,7 @@ export const products: Product[] = [
     id: 168,
     name: 'Vikram Gold',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/81+0JlbP6EL._SX679_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
