@@ -314,7 +314,7 @@ export const products: Product[] = [
     id: 27,
     name: 'Potato Chips',
     price: 25,
-    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bigbasket.com%2Fpd%2F70000872%2Fhaldirams-chips-classic-salted-del-60-g-pouch%2F&psig=AOvVaw3G5cRc34TFfVS_97qDR6zB&ust=1756702461346000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPiU09ShtI8DFQAAAAAdAAAAABAU?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://tiimg.tistatic.com/fp/1/007/475/classic-salted-handpicked-potatoes-chips-normally-mixed-with-masala-826.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Snacks',
     description: 'Crispy potato chips',
     inStock: true
