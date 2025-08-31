@@ -1998,7 +1998,7 @@ export const products: Product[] = [
     id: 158,
     name: 'Heera Besan ',
     price: 450,
-    image: 'https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_BeansVsGrounds_blog.jpg?v=1686342662?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://img.thecdn.in/408135/hira-besan-1731910069954_SKU-1523_0.png?format=webp?auto=compress&cs=tinysrgb&w=400',
     category: 'Kitchen',
     description: 'Aromatic coffee beans - 500g',
     inStock: true,
