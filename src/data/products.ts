@@ -314,7 +314,7 @@ export const products: Product[] = [
     id: 27,
     name: 'Potato Chips',
     price: 25,
-    image: 'https://tiimg.tistatic.com/fp/1/007/475/classic-salted-handpicked-potatoes-chips-normally-mixed-with-masala-826.jpg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://m.media-amazon.com/images/I/71tOLnFIVEL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Snacks',
     description: 'Crispy potato chips',
     inStock: true
