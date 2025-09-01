@@ -33,8 +33,11 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     try {
       await signInWithPopup(auth, googleProvider);
     } catch (error) {
-      console.error('Error signing in with Google:', error);
-      throw error;
+      // Re-throw the error with the original error code preserved
+      const firebaseError = error as any;
+      const customError = new Error(firebaseError.message);
+      (customError as any).code = firebaseError.code;
+      throw customError;
     }
   };
 
