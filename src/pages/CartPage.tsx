@@ -44,72 +44,78 @@ const CartPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
+    <div className="min-h-screen bg-gray-50 py-4 pb-20 lg:pb-8">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between mb-8">
-          <h1 className="text-3xl font-bold text-gray-900">Shopping Cart</h1>
+        <div className="flex items-center justify-between mb-6">
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-900">Shopping Cart</h1>
           <Link
             to="/products"
-            className="text-emerald-600 hover:text-emerald-700 font-medium flex items-center"
+            className="text-emerald-600 hover:text-emerald-700 font-medium flex items-center text-sm md:text-base"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Continue Shopping
+            <span className="hidden sm:inline">Continue Shopping</span>
+            <span className="sm:hidden">Shop</span>
           </Link>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-6 lg:gap-8">
           {/* Cart Items */}
           <div className="lg:col-span-2">
             <div className="bg-white rounded-lg shadow-sm">
               {state.items.map((item) => (
-                <div key={item.id} className="p-6 border-b border-gray-200 last:border-b-0">
-                  <div className="flex items-center space-x-4">
+                <div key={item.id} className="p-4 md:p-6 border-b border-gray-200 last:border-b-0">
+                  <div className="flex items-center space-x-3 md:space-x-4">
                     <img
                       src={item.image}
                       alt={item.name}
-                      className="w-20 h-20 object-cover rounded-lg"
+                      className="w-16 h-16 md:w-20 md:h-20 object-cover rounded-lg flex-shrink-0"
                     />
                     <div className="flex-1 min-w-0">
-                      <h3 className="text-lg font-semibold text-gray-900 truncate">
+                      <h3 className="text-sm md:text-lg font-semibold text-gray-900 line-clamp-2">
                         {item.name}
                       </h3>
                       {item.selectedVariant && (
-                        <p className="text-sm text-gray-500 mt-1">
+                        <p className="text-xs md:text-sm text-gray-500 mt-1">
                           Weight: {item.selectedVariant.weight}
                         </p>
                       )}
-                      <p className="text-sm text-gray-600 mt-1">{item.category}</p>
-                      <p className="text-lg font-bold text-emerald-600 mt-2">
+                      <p className="text-xs md:text-sm text-gray-600 mt-1">{item.category}</p>
+                      <p className="text-sm md:text-lg font-bold text-emerald-600 mt-1 md:mt-2">
                         ₹{item.price}
                       </p>
                     </div>
-                    <div className="flex items-center space-x-3">
+                    
+                    {/* Mobile Layout: Stack quantity and remove button */}
+                    <div className="flex flex-col md:flex-row items-end md:items-center space-y-2 md:space-y-0 md:space-x-4">
+                      <div className="flex items-center space-x-2 md:space-x-3">
                       <button
                         onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                        className="p-2 hover:bg-gray-100 rounded-full transition-colors duration-200"
+                        className="p-1.5 md:p-2 hover:bg-gray-100 rounded-full transition-colors duration-200"
                       >
                         <Minus className="h-4 w-4 text-gray-600" />
                       </button>
-                      <span className="text-lg font-semibold w-8 text-center">
+                      <span className="text-sm md:text-lg font-semibold w-6 md:w-8 text-center">
                         {item.quantity}
                       </span>
                       <button
                         onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                        className="p-2 hover:bg-gray-100 rounded-full transition-colors duration-200"
+                        className="p-1.5 md:p-2 hover:bg-gray-100 rounded-full transition-colors duration-200"
                       >
                         <Plus className="h-4 w-4 text-gray-600" />
                       </button>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-lg font-bold text-gray-900">
+                      </div>
+                      
+                      <div className="text-right">
+                      <p className="text-sm md:text-lg font-bold text-gray-900">
                         ₹{(item.price * item.quantity).toFixed(2)}
                       </p>
                       <button
                         onClick={() => removeFromCart(item.id)}
-                        className="text-red-500 hover:text-red-600 mt-2 p-1 rounded transition-colors duration-200"
+                        className="text-red-500 hover:text-red-600 mt-1 md:mt-2 p-1 rounded transition-colors duration-200"
                       >
-                        <Trash2 className="h-4 w-4" />
+                        <Trash2 className="h-3 w-3 md:h-4 md:w-4" />
                       </button>
+                      </div>
                     </div>
                   </div>
                 </div>

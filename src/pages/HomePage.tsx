@@ -1,221 +1,191 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowRight, Truck, Shield, Clock, Star, Tag } from 'lucide-react';
-import ProductCard from '../components/ProductCard';
-import { products } from '../data/products';
-import { useSearch } from '../context/SearchContext';
-import GaneshChaturthi from '../components/GaneshChaturthi';
+import React, { useState } from 'react';
+import { ShoppingCart, Star, ChevronDown } from 'lucide-react';
+import { Product, ProductVariant } from '../types';
+import { useCart } from '../context/CartContext';
 
-const HomePage = () => {
-  const { setSearchQuery } = useSearch();
-  const featuredProducts = products.filter(product => product.featured).slice(0, 4);
-  const saleProducts = products.filter(product => product.onSale).slice(0, 4);
+interface ProductCardProps {
+  product: Product;
+}
 
-  const categories = [
-    { name: 'Wheat&Rice', icon: '🌾', count: products.filter(p => p.category === 'Wheat&Rice').length },
-    { name: 'Dals', icon: '🍲', count: products.filter(p => p.category === 'Dals').length },   
-     { name: 'Kitchen', icon: '🍲', count: products.filter(p => p.category === 'Kitchen').length },
-     { name: 'Masala', icon: '🌶️', count: products.filter(p => p.category === 'Masala').length },
-    { name: 'Tea&Coffee', icon: '☕', count: products.filter(p => p.category === 'Tea&coffee').length },
-      { name: 'Biscuits', icon: '🍪', count: products.filter(p => p.category === 'Biscuits').length },
-     { name: 'Dry Fruits', icon: '🥜', count: products.filter(p => p.category === 'Dry Fruits').length }, 
-    { name: 'Cleaning', icon: '🪣', count: products.filter(p => p.category === 'Cleaning').length },
-     { name: 'Snacks', icon: '😋', count: products.filter(p => p.category === 'Snacks').length },
-       { name: 'Dairy', icon: '🥛', count: products.filter(p => p.category === 'Dairy').length },
-       
-  ];
+const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+  const { dispatch } = useCart();
+  const [selectedVariant, setSelectedVariant] = useState<ProductVariant>(
+    product.variants?.[0] || {
+      id: `${product.id}-default`,
+      weight: 'Default',
+      price: product.price,
+      originalPrice: product.originalPrice
+    }
+  );
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const handleAddToCart = () => {
+    // Add visual feedback
+    const button = document.activeElement;
+    if (button) {
+      button.classList.add('animate-pulse');
+      setTimeout(() => button.classList.remove('animate-pulse'), 300);
+    }
+    
+    const productToAdd = {
+      ...product,
+      price: selectedVariant.price,
+      originalPrice: selectedVariant.originalPrice
+    };
+    dispatch({ 
+      type: 'ADD_TO_CART', 
+      product: productToAdd,
+      selectedVariant 
+    });
+  };
+
+  const handleVariantSelect = (variant: ProductVariant) => {
+    setSelectedVariant(variant);
+    setIsDropdownOpen(false);
+  };
+
+  const currentDiscount = selectedVariant.discount || 
+    (selectedVariant.originalPrice && selectedVariant.originalPrice > selectedVariant.price 
+      ? Math.round(((selectedVariant.originalPrice - selectedVariant.price) / selectedVariant.originalPrice) * 100)
+      : null);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-emerald-600 via-emerald-500 to-blue-500 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                Freshness Delivered Daily
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-green-50">
-                Your trusted neighborhood supermarket for quality groceries and everyday essentials
-              </p>
-              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <Link
-                  to="/products"
-                  className="bg-white text-emerald-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 flex items-center justify-center group"
-                >
-                  Shop Now
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
-                </Link>
-                <Link
-                  to="/products?filter=sale"
-                  className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-emerald-600 transition-colors duration-200"
-                >
-                  View Offers
-                </Link>
-              </div>
-            </div>
+    <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 group overflow-hidden border border-gray-100 hover:border-emerald-200 hover:-translate-y-1">
+      {/* Product Image */}
+      <div className="relative overflow-hidden">
+        <img
+          src={product.image}
+          alt={product.name}
+          className="w-full h-40 sm:h-48 md:h-52 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        {product.onSale && (
+          <div className="absolute top-2 left-2">
+            <span className="bg-red-500 text-white px-2 py-1 text-xs font-semibold rounded-full shadow-md">
+              SALE
+            </span>
+          </div>
+        )}
+        {currentDiscount && (
+          <div className="absolute top-2 left-2">
+            <span className="bg-green-500 text-white px-2 py-1 text-xs font-semibold rounded-full shadow-md animate-pulse">
+              {currentDiscount}% OFF
+            </span>
+          </div>
+        )}
+        {product.featured && (
+          <div className="absolute top-2 right-2">
+            <Star className="h-5 w-5 text-yellow-400 fill-current" />
+          </div>
+        )}
+        {!product.inStock && (
+          <div className="absolute inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center">
+            <span className="text-white font-semibold text-sm">Out of Stock</span>
+          </div>
+        )}
+      </div>
+
+      {/* Product Info */}
+      <div className="p-3 md:p-4">
+        <h3 className="font-semibold text-gray-900 text-sm md:text-lg mb-1 truncate">
+          {product.name}
+        </h3>
+        <p className="text-gray-600 text-xs md:text-sm mb-2 md:mb-3 line-clamp-2 h-8 md:h-10">
+          {product.description}
+        </p>
+
+        {/* Weight/Size Dropdown */}
+        {product.variants && product.variants.length > 1 && (
+          <div className="mb-2 md:mb-3">
             <div className="relative">
-              <img
-                src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Fresh groceries"
-                className="rounded-2xl shadow-2xl"
-              />
-              <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-emerald-100 p-2 rounded-lg">
-                    <Star className="h-6 w-6 text-emerald-600" />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900">Fresh Quality</p>
-                    <p className="text-sm text-gray-600">Guaranteed</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center group">
-              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-emerald-200 transition-colors duration-200">
-                <Truck className="h-8 w-8 text-emerald-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Free Delivery</h3>
-              <p className="text-gray-600">
-                <span className="font-semibold text-emerald-600">Free delivery</span> on orders above ₹400
-                <br />
-                <span className="text-sm">⚡ Delivered in 5-10 hours</span>
-              </p>
-            </div>
-            <div className="text-center group">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 transition-colors duration-200">
-                <Shield className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Quality Assured</h3>
-              <p className="text-gray-600">
-                <span className="font-semibold text-blue-600">100% fresh</span> and quality guaranteed
-                <br />
-                <span className="text-sm">✅ Money-back guarantee</span>
-              </p>
-            </div>
-            <div className="text-center group">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-colors duration-200">
-                <Clock className="h-8 w-8 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Quick Delivery</h3>
-              <p className="text-gray-600">
-                <span className="font-semibold text-orange-600">Lightning fast</span> delivery
-                <br />
-                <span className="text-sm">🕐 Same-day delivery available</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Ganesh Chaturthi Special Section */}
-      <GaneshChaturthi />
-
-      {/* Categories Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-            Shop by Categories
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {categories.map((category) => (
-              <Link
-                key={category.name}
-                to={`/products?category=${encodeURIComponent(category.name)}`}
-                onClick={() => setSearchQuery('')}
-                className="bg-white p-6 rounded-xl text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group border border-gray-100"
+              <button
+                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                className="w-full flex items-center justify-between p-2 md:p-3 border border-gray-300 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200"
               >
-                <div className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-200">
-                  {category.icon}
+                <span className="text-xs md:text-sm font-medium text-gray-700">
+                  {selectedVariant.weight}
+                </span>
+                <ChevronDown className={`h-4 w-4 text-gray-500 transition-transform duration-200 ${
+                  isDropdownOpen ? 'rotate-180' : ''
+                }`} />
+              </button>
+              
+              {isDropdownOpen && (
+                <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-10 max-h-48 overflow-y-auto">
+                  {product.variants.map((variant) => (
+                    <button
+                      key={variant.id}
+                      onClick={() => handleVariantSelect(variant)}
+                      className={`w-full text-left p-3 hover:bg-gray-50 transition-colors duration-200 border-b border-gray-100 last:border-b-0 ${
+                        selectedVariant.id === variant.id ? 'bg-emerald-50 text-emerald-700' : 'text-gray-700'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm font-medium">{variant.weight}</span>
+                        <div className="flex items-center space-x-2">
+                          <span className="text-sm font-bold text-emerald-600">
+                            ₹{variant.price}
+                          </span>
+                          {variant.originalPrice && variant.originalPrice > variant.price && (
+                            <span className="text-xs text-gray-500 line-through">
+                              ₹{variant.originalPrice}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                      {variant.discount && (
+                        <div className="mt-1">
+                          <span className="text-xs font-semibold text-green-600">
+                            {variant.discount}% OFF
+                          </span>
+                        </div>
+                      )}
+                    </button>
+                  ))}
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-1">{category.name}</h3>
-                <p className="text-sm text-emerald-600 font-medium">{category.count} items</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Products */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Featured Products</h2>
-            <Link
-              to="/products"
-              className="bg-white text-emerald-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 hover:shadow-lg transition-all duration-200 flex items-center justify-center group text-lg"
-            >
-              View All
-              <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {featuredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Weekly Offers */}
-      <section className="py-16 bg-gradient-to-r from-red-50 to-orange-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-full mb-4">
-              <Tag className="h-4 w-4 mr-2" />
-              <span className="font-semibold">Weekly Offers</span>
+              )}
             </div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Special Discounts</h2>
-            <p className="text-gray-600">Don't miss out on these amazing deals!</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {saleProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <Link
-              to="/products?filter=sale"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-emerald-600 transition-all duration-200 hover:shadow-lg text-lg"
-            >
-              🎉 View Offers
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </div>
-        </div>
-      </section>
+        )}
 
-      {/* Newsletter */}
-      <section className="py-16 bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
-          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-            Subscribe to our newsletter and be the first to know about new products, 
-            special offers, and exclusive deals.
-          </p>
-          <div className="max-w-md mx-auto flex">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-l-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-emerald-500"
-            />
-            <button className="bg-emerald-500 px-6 py-3 rounded-r-lg hover:bg-emerald-600 transition-colors duration-200 font-semibold">
-              Subscribe
-            </button>
+        {/* Price Display */}
+        <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center space-x-2">
+            <span className="text-2xl font-bold text-emerald-600">
+              ₹{selectedVariant.price}
+            </span>
+            {selectedVariant.originalPrice && selectedVariant.originalPrice > selectedVariant.price && (
+              <span className="text-sm text-gray-500 line-through">
+                ₹{selectedVariant.originalPrice}
+              </span>
+            )}
           </div>
+          {currentDiscount && (
+            <span className="text-xs font-semibold text-red-500">
+              {currentDiscount}% OFF
+            </span>
+          )}
         </div>
-      </section>
+        
+        {/* Add to Cart Button */}
+        <button
+          onClick={handleAddToCart}
+          disabled={!product.inStock}
+          className="w-full bg-emerald-500 text-white py-3 px-4 rounded-lg hover:bg-emerald-600 hover:shadow-md disabled:bg-gray-300 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center space-x-2 font-medium"
+        >
+          <ShoppingCart className="h-4 w-4" />
+          <span>{product.inStock ? 'Add to Cart' : 'Out of Stock'}</span>
+        </button>
+      </div>
+
+      {/* Click outside to close dropdown */}
+      {isDropdownOpen && (
+        <div
+          className="fixed inset-0 z-5"
+          onClick={() => setIsDropdownOpen(false)}
+        />
+      )}
     </div>
   );
 };
 
-export default HomePage;
+export default ProductCard;
