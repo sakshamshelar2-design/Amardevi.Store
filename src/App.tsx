@@ -19,7 +19,7 @@ function App() {
       <SearchProvider>
         <CartProvider>
           <Router>
-            <div className="min-h-screen bg-gray-50 flex flex-col pb-16 lg:pb-0">
+            <div className="min-h-screen bg-gray-50 flex flex-col">
               <Navbar />
               <main className="flex-grow">
                 <Routes>
