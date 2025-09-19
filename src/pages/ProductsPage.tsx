@@ -2,17 +2,25 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Filter, SortAsc, Search, X } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
-import { products, categories } from '../data/products';
+import { useProducts } from '../hooks/useProducts';
 import { Product } from '../types';
 import { useSearch } from '../context/SearchContext';
+import LoadingSpinner from '../components/LoadingSpinner';
 
 const ProductsPage = () => {
+  const { products, loading, error } = useProducts();
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [sortBy, setSortBy] = useState('name');
-  const [localSearchQuery, setLocalSearchQuery] = useState('');
   const location = useLocation();
   const { searchQuery, setSearchQuery } = useSearch();
+
+  // Generate categories dynamically from products
+  const categories = React.useMemo(() => {
+    if (!products.length) return [];
+    const uniqueCategories = [...new Set(products.map(p => p.category))];
+    return uniqueCategories.sort();
+  }, [products]);
 
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);
@@ -24,15 +32,18 @@ const ProductsPage = () => {
       setSelectedCategory(categoryParam);
     } else if (filterParam === 'sale') {
       setSelectedCategory('Sale');
+    } else {
+      setSelectedCategory('All');
     }
 
     if (searchParam) {
       setSearchQuery(searchParam);
-      setLocalSearchQuery(searchParam);
     }
   }, [location.search]);
 
   useEffect(() => {
+    if (!products.length) return;
+    
     let filtered = [...products];
 
     // Apply search filter
@@ -67,15 +78,48 @@ const ProductsPage = () => {
     });
 
     setFilteredProducts(filtered);
-  }, [selectedCategory, sortBy, searchQuery]);
+  }, [selectedCategory, sortBy, searchQuery, products]);
 
   const clearSearch = () => {
     setSearchQuery('');
-    setLocalSearchQuery('');
     setSelectedCategory('All');
   };
 
   const categoryOptions = [...categories, 'Sale'];
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-center items-center py-20">
+            <div className="text-center">
+              <LoadingSpinner size="lg" />
+              <p className="mt-4 text-gray-600">Loading products...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gray-50 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center py-20">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Unable to load products</h2>
+            <p className="text-gray-600 mb-4">{error}</p>
+            <button 
+              onClick={() => window.location.reload()} 
+              className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-600"
+            >
+              Try Again
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -195,7 +239,6 @@ const ProductsPage = () => {
             <button
               onClick={() => {
                 setSearchQuery('');
-                setLocalSearchQuery('');
                 setSelectedCategory('All');
                 setSortBy('name');
               }}
