@@ -2,67 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, Shield, Clock, Star, Tag } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
-import { useProducts, useFeaturedProducts, useSaleProducts } from '../hooks/useProducts';
+import { products } from '../data/products';
 import { useSearch } from '../context/SearchContext';
 import GaneshChaturthi from '../components/GaneshChaturthi';
-import LoadingSpinner from '../components/LoadingSpinner';
 
 const HomePage = () => {
   const { setSearchQuery } = useSearch();
-  const { products, loading: productsLoading, error: productsError } = useProducts();
-  const { products: featuredProducts, loading: featuredLoading } = useFeaturedProducts();
-  const { products: saleProducts, loading: saleLoading } = useSaleProducts();
+  const featuredProducts = products.filter(product => product.featured).slice(0, 4);
+  const saleProducts = products.filter(product => product.onSale).slice(0, 4);
 
-  // Generate categories dynamically from products
-  const categories = React.useMemo(() => {
-    if (!products.length) return [];
-    
-    const categoryMap = new Map();
-    products.forEach(product => {
-      const category = product.category;
-      if (categoryMap.has(category)) {
-        categoryMap.set(category, categoryMap.get(category) + 1);
-      } else {
-        categoryMap.set(category, 1);
-      }
-    });
-
-    const categoryIcons = {
-      'Wheat&Rice': '🌾',
-      'Dals': '🍲',
-      'Kitchen': '🍳',
-      'Masala': '🌶️',
-      'Tea&Coffee': '☕',
-      'Biscuits': '🍪',
-      'Dry Fruits': '🥜',
-      'Cleaning': '🪣',
-      'Snacks': '😋',
-      'Dairy': '🥛'
-    };
-
-    return Array.from(categoryMap.entries()).map(([name, count]) => ({
-      name,
-      icon: categoryIcons[name] || '📦',
-      count
-    }));
-  }, [products]);
-
-  if (productsError) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Unable to load products</h2>
-          <p className="text-gray-600 mb-4">{productsError}</p>
-          <button 
-            onClick={() => window.location.reload()} 
-            className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-600"
-          >
-            Try Again
-          </button>
-        </div>
-      </div>
-    );
-  }
+  const categories = [
+    { name: 'Wheat&Rice', icon: '🌾', count: products.filter(p => p.category === 'Wheat&Rice').length },
+    { name: 'Dals', icon: '🍲', count: products.filter(p => p.category === 'Dals').length },   
+     { name: 'Kitchen', icon: '🍲', count: products.filter(p => p.category === 'Kitchen').length },
+     { name: 'Masala', icon: '🌶️', count: products.filter(p => p.category === 'Masala').length },
+    { name: 'Tea&Coffee', icon: '☕', count: products.filter(p => p.category === 'Tea&coffee').length },
+      { name: 'Biscuits', icon: '🍪', count: products.filter(p => p.category === 'Biscuits').length },
+     { name: 'Dry Fruits', icon: '🥜', count: products.filter(p => p.category === 'Dry Fruits').length }, 
+    { name: 'Cleaning', icon: '🪣', count: products.filter(p => p.category === 'Cleaning').length },
+     { name: 'Snacks', icon: '😋', count: products.filter(p => p.category === 'Snacks').length },
+       { name: 'Dairy', icon: '🥛', count: products.filter(p => p.category === 'Dairy').length },
+       
+  ];
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -165,28 +126,22 @@ const HomePage = () => {
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
             Shop by Categories
           </h2>
-          {productsLoading ? (
-            <div className="flex justify-center">
-              <LoadingSpinner size="lg" />
-            </div>
-          ) : (
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-              {categories.map((category) => (
-                <Link
-                  key={category.name}
-                  to={`/products?category=${encodeURIComponent(category.name)}`}
-                  onClick={() => setSearchQuery('')}
-                  className="bg-white p-6 rounded-xl text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group border border-gray-100"
-                >
-                  <div className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-200">
-                    {category.icon}
-                  </div>
-                  <h3 className="font-semibold text-gray-900 mb-1">{category.name}</h3>
-                  <p className="text-sm text-emerald-600 font-medium">{category.count} items</p>
-                </Link>
-              ))}
-            </div>
-          )}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+            {categories.map((category) => (
+              <Link
+                key={category.name}
+                to={`/products?category=${encodeURIComponent(category.name)}`}
+                onClick={() => setSearchQuery('')}
+                className="bg-white p-6 rounded-xl text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group border border-gray-100"
+              >
+                <div className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-200">
+                  {category.icon}
+                </div>
+                <h3 className="font-semibold text-gray-900 mb-1">{category.name}</h3>
+                <p className="text-sm text-emerald-600 font-medium">{category.count} items</p>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -203,17 +158,11 @@ const HomePage = () => {
               <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
             </Link>
           </div>
-          {featuredLoading ? (
-            <div className="flex justify-center">
-              <LoadingSpinner size="lg" />
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {featuredProducts.slice(0, 4).map((product) => (
-                <ProductCard key={product.id} product={product} />
-              ))}
-            </div>
-          )}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {featuredProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
         </div>
       </section>
 
@@ -228,21 +177,15 @@ const HomePage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Special Discounts</h2>
             <p className="text-gray-600">Don't miss out on these amazing deals!</p>
           </div>
-          {saleLoading ? (
-            <div className="flex justify-center">
-              <LoadingSpinner size="lg" />
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {saleProducts.slice(0, 4).map((product) => (
-                <ProductCard key={product.id} product={product} />
-              ))}
-            </div>
-          )}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {saleProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
           <div className="text-center mt-8">
             <Link
               to="/products?filter=sale"
-              className="bg-red-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-600 transition-all duration-200 hover:shadow-lg text-lg"
+              className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-emerald-600 transition-all duration-200 hover:shadow-lg text-lg"
             >
               🎉 View Offers
               <ArrowRight className="ml-2 h-5 w-5" />
