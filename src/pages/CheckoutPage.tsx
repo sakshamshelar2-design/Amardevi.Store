@@ -3,13 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import { CreditCard, Truck, CheckCircle, Smartphone, Building2, Copy } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
-import { useOrders } from '../hooks/useOrders';
-import Toast from '../components/Toast';
 
 const CheckoutPage = () => {
   const { state, dispatch } = useCart();
   const { user } = useAuth();
-  const { createOrder, loading: orderLoading } = useOrders();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: user?.displayName || '',
@@ -18,9 +15,9 @@ const CheckoutPage = () => {
     address: '',
     paymentMethod: 'cod'
   });
+  const [isLoading, setIsLoading] = useState(false);
   const [orderPlaced, setOrderPlaced] = useState(false);
   const [copiedField, setCopiedField] = useState('');
-  const [toast, setToast] = useState({ show: false, message: '', type: 'success' as 'success' | 'error' | 'info' });
 
   // Bank Details
   const bankDetails = {
@@ -55,39 +52,19 @@ const CheckoutPage = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsLoading(true);
 
-    try {
-      const deliveryFee = state.total >= 400 ? 0 : 40;
-      const finalTotal = state.total + deliveryFee;
-
-      await createOrder(
-        state.items,
-        formData,
-        state.total,
-        deliveryFee,
-        finalTotal
-      );
-
+    // Simulate order processing
+    setTimeout(() => {
       setOrderPlaced(true);
       dispatch({ type: 'CLEAR_CART' });
-      
-      setToast({
-        show: true,
-        message: 'Order placed successfully!',
-        type: 'success'
-      });
+      setIsLoading(false);
       
       // Redirect to home after 3 seconds
       setTimeout(() => {
         navigate('/');
       }, 3000);
-    } catch (error) {
-      setToast({
-        show: true,
-        message: 'Failed to place order. Please try again.',
-        type: 'error'
-      });
-    }
+    }, 2000);
   };
 
   if (state.items.length === 0 && !orderPlaced) {
@@ -235,10 +212,10 @@ const CheckoutPage = () => {
 
                 <button
                   type="submit"
-                  disabled={orderLoading}
+                  disabled={isLoading}
                   className="w-full bg-emerald-500 text-white py-3 rounded-lg hover:bg-emerald-600 disabled:bg-gray-400 transition-colors duration-200 font-semibold"
                 >
-                  {orderLoading ? 'Processing...' : 'Place Order'}
+                  {isLoading ? 'Processing...' : 'Place Order'}
                 </button>
               </div>
             </form>
@@ -472,13 +449,6 @@ const CheckoutPage = () => {
           </div>
         </div>
       </div>
-      
-      <Toast
-        message={toast.message}
-        type={toast.type}
-        isVisible={toast.show}
-        onClose={() => setToast({ ...toast, show: false })}
-      />
     </div>
   );
 };
