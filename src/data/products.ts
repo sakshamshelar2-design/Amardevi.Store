@@ -1329,7 +1329,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://cdn.grofers.com/da/cms-assets/cms/product/fc257532-6a1a-467a-a7ae-cb4c42e23562.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1344,7 +1344,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://dayli.in/cdn/shop/files/51WN3QnDeAL.jpg?v=1731063853?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
