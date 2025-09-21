@@ -954,7 +954,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://m.media-amazon.com/images/I/61szrCRWOEL._SX569_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: ' - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -969,7 +969,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://www.quickpantry.in/cdn/shop/products/saragm-plus-detergent-bar-200-g-quick-pantry.jpg?v=1710538674?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -984,7 +984,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://m.media-amazon.com/images/I/41BiNkUT7nL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
