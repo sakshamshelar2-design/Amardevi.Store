@@ -1179,7 +1179,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://rukminim2.flixcart.com/image/704/844/xif0q/soap/s/7/8/4-600-skin-moisturizing-sandal-turmeric-bathing-bar-soap-100gx2-original-imagxuysxhyzgp5z.jpeg?q=90&crop=false?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1194,7 +1194,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://www.dawaiwala.com/pharmacy/img/60670939b4e46.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1224,7 +1224,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://static.wixstatic.com/media/6116de_59fb9393806c4c9eb8f5782aa469f0ae~mv2.jpg/v1/fill/w_480,h_322,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6116de_59fb9393806c4c9eb8f5782aa469f0ae~mv2.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1239,7 +1239,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://dayli.in/cdn/shop/files/Shop-Medimix-18-Herbs-Soap-Online-_-Ayurvedic-Soap-_-Bathing-Soap-edited_3_1.webp?v=1755888425&width=540?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1254,7 +1254,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://hbkirana.in/wp-content/uploads/2025/03/luxsoap-1738397960304.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1269,7 +1269,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiJTqJ3up-pbaNl0X_YiHfPqIGiLoSKl-ZNQ&s?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1284,7 +1284,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://media.naheed.pk/catalog/product/cache/2f2d0cb0c5f92580479e8350be94f387/1/1/1198671-uni-rpl-1.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1299,7 +1299,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://nmedicines.in/media/catalog/product/cache/11/image/586x/040ec09b1e35df139433887a97daa66f/7/1/71z_ta17nvl._sx355_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1314,7 +1314,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://m.media-amazon.com/images/I/51vTy+8LuxL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
