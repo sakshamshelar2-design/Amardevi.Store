@@ -1044,7 +1044,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://eangadi.in/image/cache/catalog/Seller_10/eAngadi-LaundryandDetergents-TIDE-Detergent-BAR-350x350.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1059,7 +1059,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://www.vanish.co.in/static/feff9737370a5ab7a619d3d230801b5d/83d1b/vanish-oxi-action-liquid.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1074,7 +1074,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://images.apollo247.in/pub/media/catalog/product/S/U/SUR0070_1-AUG23_1.jpg?tr=w-264,q-80,f-webp,dpr-1.25,c-at_max?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1119,7 +1119,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://m.media-amazon.com/images/I/51Z7+v1MrUL._SY300_SX300_QL70_FMwebp_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Washing Powder - 500g',
     inStock: true,
     featured: true,
      variants: [
