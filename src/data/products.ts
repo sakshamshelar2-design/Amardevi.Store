@@ -1134,7 +1134,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://m.media-amazon.com/images/I/51r4BNYEEiL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Washing Powder - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1149,7 +1149,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://5.imimg.com/data5/JX/CT/EV/SELLER-103215204/ghadi-detergent-powder-1kg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Washing Powder - 500g',
     inStock: true,
     featured: true,
      variants: [
