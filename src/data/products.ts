@@ -634,7 +634,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/81xt1Y5COBL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -645,7 +645,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://i.ebayimg.com/images/g/6wEAAOSwZwNh83-z/s-l1200.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -656,7 +656,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://www.suryamasale.com/product_images/uploaded_images/everest-sambhar-masala.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -667,7 +667,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/71GZsVKyPwL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
