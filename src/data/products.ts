@@ -454,7 +454,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/41XPnuR-uJL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -465,7 +465,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://trustfamilyneeds.com/public/uploads/all/ABni7hDvtrnJkf22abcVPor2eJS7WrRvwn59PvBM.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -476,7 +476,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/2/7/1063ebd7-d5ab-4254-9436-79c9a555f4d1_20691_1.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -487,7 +487,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://cdn.shopaccino.com/edible-smart/products/britannia-50-50-sweet-amp-salty-biscuits-376979_l.jpg?v=589?param=1?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -498,7 +498,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://gandhifood.com/cdn/shop/products/b5c22e_d82b2e9ee29640cf8985291058123b19_mv2_500x.jpg?v=1609651979?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -509,7 +509,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/71Nh8WJmWNL._SL1500_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -520,7 +520,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://storage.googleapis.com/shy-pub/408135/parle-20-20-rs-5-1731910085749_SKU-1559_0.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -531,7 +531,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/81lRRRqzykL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -542,7 +542,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/61R96f7MhlL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },  
