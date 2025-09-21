@@ -556,7 +556,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/41V-dhKC4eL._SY300_SX300_QL70_FMwebp_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala - 100g',
     inStock: true,
     onSale: true
   },    
@@ -568,7 +568,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/51PRk87+-bL._SY300_SX300_QL70_FMwebp_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Powder - 100g',
     inStock: true,
     onSale: true
   },    
@@ -579,7 +579,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://suhana.com/cdn/shop/files/AMB-TUR-100g-preview.png?v=1707833798?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Powder - 100g',
     inStock: true,
     onSale: true
   }, 
@@ -590,7 +590,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://suhana.com/cdn/shop/files/Byadgi_Chilli_Regular.jpg?v=1711084714?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   }, 
@@ -601,7 +601,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://assets.hyperpure.com/data/images/products/026b0092671ed0a06fc06a0b61a4caf2.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Powder - 100g',
     inStock: true,
     onSale: true
   },   
@@ -612,7 +612,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/S/aplus-media-library-service-media/9dc984fe-d387-4daa-b569-f5f20de34a8e.__CR0,0,300,300_PT0_SX300_V1___.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   }, 
@@ -623,7 +623,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://file.hstatic.net/1000312435/file/1_3c2371bbd8754092bb6ea5fdccb7b100_grande.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
