@@ -1029,7 +1029,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://m.media-amazon.com/images/I/41rNPhntiGL._SY300_SX300_QL70_FMwebp_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
