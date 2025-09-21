@@ -338,7 +338,7 @@ export const products: Product[] = [
     price: 125,
     image: 'https://m.media-amazon.com/images/I/815gT66l2sL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
-    description: 'Premium green tea - 100g',
+    description: 'Premium tea - 100g',
     inStock: true,
      variants: [
       { id: '2-1kg', weight: '1 kg', price: 52 },
@@ -352,7 +352,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://lh6.googleusercontent.com/proxy/4L4Da4C3e7WB8k9mJg5EXKXstMPxPb_5wOzpMj8BvK4hx-5iPhh21dY9c3WFwNcVK2Il8g0XhgkABcu3RXorS47ysXB9Cq9SeFae5oZrcYJ8L2g-p0OyWbfc9kpsWsrPsH5Iy6cSdDUi3g0?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Premium tea - 100g',
     inStock: true,
     featured: true,
      variants: [
@@ -368,7 +368,7 @@ export const products: Product[] = [
     originalPrice: 85,
     image: 'https://tiimg.tistatic.com/fp/1/007/963/freshly-lipton-pure-and-light-loose-green-tea-leaves-powder--229.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea&Coffee',
-    description: 'Fresh orange juice - 500ml',
+    description: 'Premium tea - 100g',
     inStock: true,
     onSale: true,
      variants: [
@@ -399,7 +399,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://ik.imagekit.io/wlfr/wellness/images/products/340609-1.jpg/tr:w-3840,c-at_max,cm-pad_resize,ar-1210-700,pr-true,f-auto,q-70,l-image,i-Wellness_logo_BDwqbQao9.png,lfo-bottom_right,w-200,h-90,c-at_least,cm-pad_resize,l-end?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Biscuits',
     inStock: true,
     onSale: true
   },   
