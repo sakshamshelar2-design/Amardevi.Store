@@ -678,7 +678,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://5.imimg.com/data5/ANDROID/Default/2024/3/402459562/HB/CB/BU/14029277/product-jpeg-500x500.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
