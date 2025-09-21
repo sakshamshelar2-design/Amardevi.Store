@@ -689,7 +689,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://suhana.com/cdn/shop/files/SUH-CM-200g-pouch-preview.png?v=1707833846?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
