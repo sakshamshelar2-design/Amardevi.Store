@@ -999,7 +999,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://www.jyothylabs.com/wp-content/uploads/2023/05/Exo-Bar-2023-02-1.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
@@ -1014,7 +1014,7 @@ export const products: Product[] = [
     price: 450,
     image: 'https://patanjalinepal.org/wp-content/uploads/2022/02/Super-Dish-150g.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Cleaning',
-    description: 'Aromatic coffee beans - 500g',
+    description: 'Soap - 500g',
     inStock: true,
     featured: true,
      variants: [
