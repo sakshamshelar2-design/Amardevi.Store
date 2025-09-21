@@ -788,7 +788,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://rukminim1.flixcart.com/image/300/300/xif0q/spice-masala/d/d/8/200-biryani-masala-100g-box-pack-of-2-pouch-2-suhana-powder-original-imaghgx2qdkj5gym.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
