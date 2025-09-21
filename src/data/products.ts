@@ -821,7 +821,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://www.quickpantry.in/cdn/shop/products/everest-garam-masala-50-g-quick-pantry-1.jpg?v=1710537974?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -832,7 +832,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/71DsmjB6-uL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -843,7 +843,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/71hexcSRJFL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -854,7 +854,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://cdn.grofers.com/da/cms-assets/cms/product/0403d492-6e67-4d04-a624-982558e59694.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -865,7 +865,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/81cA6i92hIL._UF1000,1000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -876,7 +876,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://suhana.com/cdn/shop/files/SM-PT-1-preview_grande.png?v=1707833532?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -887,7 +887,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://suhana.com/cdn/shop/files/SM-MP-1-1.jpg?v=1707833539?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -898,7 +898,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://5.imimg.com/data5/SELLER/Default/2022/6/BI/RN/LF/146004054/sodamasala-1613020539111.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Powder - 100g',
     inStock: true,
     onSale: true
   },
@@ -931,7 +931,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://www.haridwarmart.com/wp-content/uploads/2020/12/haridwar-mart-maggi-masala.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
