@@ -722,7 +722,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://suhana.com/cdn/shop/files/SUH-MM-50-box-1-e1681798292942.jpg?v=1707833881?auto=compress&cs=tinysrgb&w=400',
     category: 'Masala',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Good Quality Masala Powder - 100g',
     inStock: true,
     onSale: true
   },
