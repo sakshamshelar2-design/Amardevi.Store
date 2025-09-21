@@ -421,7 +421,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://gpsretail.in/wp-content/uploads/2024/11/61kBRuYl3vL._AC_UF10001000_QL80_.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -432,7 +432,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://m.media-amazon.com/images/I/71+kVe5LuiL.jpg?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
@@ -443,7 +443,7 @@ export const products: Product[] = [
     originalPrice: 165,
     image: 'https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2025/5/21/d7b08554-0580-42c1-a1d4-5bf90f84fd95_10595_1.png?auto=compress&cs=tinysrgb&w=400',
     category: 'Biscuits',
-    description: 'Pure cooking oil - 1 liter',
+    description: 'Best biscuits - 100g',
     inStock: true,
     onSale: true
   },   
